@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <title>./Portfolio Damien Goldenberg</title>
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="public/css/style.css">
+        <link rel="stylesheet" href="public/css/animate.css">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app="portfolio" scroll>
+        <div id="HeaderWelcome" class="container-fluid">
+            <div class="row">
+                <!--<div id="headerHack" class="col-md-3"></div>
+                <div id="puppet" class="col-md-3">
+                    <div id="headerPuppet"></div>
+                </div>
+                <div id="headerDocker" class="col-md-3"></div>-->
+                <!--<img src="public/img/docker-header.png" id="headerDocker" class="col-md-1">-->
+                <div class="col-sm-2">
+                    <img src="public/img/hack.png" id="headerHack" />
+                </div>
+                <div class="col-sm-2"><br />
+                    <img src="public/img/bubble.png" id="headerBubble" /><br />
+                    <img src="public/img/puppet-logo.png" id="headerPuppet" />
+                </div>
+                <div class="col-sm-2">
+                    <img src="public/img/docker-header.png" id="headerDocker" />
+                </div>
+                <div class="col-sm-2">
+                    <img src="public/img/tux.png" id="headerTux"/>
+                </div>
+            </div>
+
+        </div>
+        <nav class="limit-dash" ng-controller="MenuCtrl" ng-class="{ menufixed:boolChangeClass }">
+            <div class="limit-dash">
+                <!--<h1>Damien Goldenberg</h1>
+                <h3>Dynamic student passionate by computing</h3>-->
+            </div>
+            <div class="btn-group">
+                  <a class="menu" href="#Welcome">Welcome</a><span class="pipe"> </span>
+                  <a class="menu" href="#AboutMe">About me</a><span class="pipe"> </span>
+                  <a class="menu" href="#Edu">Education</a><span class="pipe"> </span>
+                  <a class="menu" href="#Xp">Experience</a><span class="pipe"> </span>
+                  <a class="menu" href="#Skills">Skills</a><span class="pipe"></span>
+                  <a class="menu" href="#Contact">Contact</a>
+            </div>
+            <br />
+            <br />
+        </nav>
+        <div id="content" ng-controller="PortfolioCtrl" class="page" ng-view>
+        </div>
+
+        <!----><script src="public/js/angular.js"></script><!---->
+        <!----><script src="public/js/angular-route.min.js"></script><!---->
+        <!----><script src="public/js/angular-animate.js"></script><!---->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.js"></script>-->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>-->
+        <script src="public/js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+        <script src="public/js/portfolio.js"></script>
+    </body>
+</html>

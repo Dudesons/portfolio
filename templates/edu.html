@@ -1,0 +1,6 @@
+<section class="limit-dash" ng-repeat="i in edu.content">
+    <h2>[[ i.school ]]</h2>
+    <div class="date">[[ i.start ]] - [[ i.end ]]</div><br />
+    <p ng-bind-html='renderText("[[ i.desc ]]")'></p>
+    <p></p>
+</section>
