@@ -1,6 +1,7 @@
 (function()
 {
-    var portfolio = angular.module('portfolio', ["ngAnimate", 'ui.bootstrap']);
+    var portfolio = angular.module('portfolio', ["ngAnimate", 'ui.bootstrap', 'ngRoute']);
+    var lang = "en"
     /*portfolio.config(function($routeProvider, $locationProvider)
     {
         $routeProvider
@@ -44,7 +45,7 @@
                                     };
                                 });
 
-    portfolio.directive("scroll", function ($window)
+    /*portfolio.directive("scroll", function ($window)
                                     {
                                         return function(scope, element, attrs)
                                                 {
@@ -55,7 +56,7 @@
                                                                                             });
                                                 };
 
-                                    });
+                                    });*/
 
     portfolio.controller("MenuCtrl", function($scope, Share, $http, $rootScope)
                                     {
