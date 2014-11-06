@@ -36,32 +36,66 @@
             </div>
 
         </div>
-        <nav class="limit-dash" ng-controller="MenuCtrl" ng-class="{ menufixed:boolChangeClass, menumargin:boolChangeClass }">
+        <nav class="limit-dash" ng-controller="MenuCtrl" ng-class="{ menufixed:boolChangeClass, menumargin:boolChangeClass }"  ng-model="langH" value="{{ langH }}">
             <div class="limit-dash">
-                <h2>Damien Goldenberg portfolio</h2>
-                <h3>Dynamic student passionate by computing</h3>
+                <article ng-switch on="langH">
+                    <section ng-switch-when="en" class="switch-anim">
+                       <h2>Damien Goldenberg portfolio</h2>
+                        <h3>Dynamic student passionate by computing</h3>
+                    </section>
+                    <section ng-switch-when="fr" class="switch-anim">
+                        <h2>Portfolio de Damien Goldenberg</h2>
+                        <h3>Etudiant passionné par l'informatique</h3>
+                    </section>
+                </article>
+
             </div>
             <div class="btn-group">
+                  <!---->
+                    <article ng-switch on="langH">
+                        <section ng-switch-when="en" class="switch-anim">
+                            <a class="menu" href="#Welcome">Welcome</a><span class="pipe"> </span>
+                            <a class="menu" href="#Edu">Training</a><span class="pipe"> </span>
+                            <a class="menu" href="#Xp">Experiences</a><span class="pipe"> </span>
+                            <a class="menu" href="#Skills">Skills</a><span class="pipe"></span>
+                            <a class="menu" href="#Contact">Contact</a>
+                        </section>
+                        <section ng-switch-when="fr" class="switch-anim">
+                            <a class="menu" href="#Welcome">Accueil</a><span class="pipe"> </span>
+                            <a class="menu" href="#Edu">Education</a><span class="pipe"> </span>
+                            <a class="menu" href="#Xp">Expériences</a><span class="pipe"> </span>
+                            <a class="menu" href="#Skills">Compétences</a><span class="pipe"></span>
+                            <a class="menu" href="#Contact">Contact</a>
+                        </section>
+                    </article>
+
+                  <!---->
+
                   <!--
-                  <a class="menu" href="#Welcome">Welcome</a><span class="pipe"> </span>
-                  <a class="menu" href="#AboutMe">About me</a><span class="pipe"> </span>
-                  <a class="menu" href="#Edu">Education</a><span class="pipe"> </span>
-                  <a class="menu" href="#Xp">Experience</a><span class="pipe"> </span>
-                  <a class="menu" href="#Skills">Skills</a><span class="pipe"></span>
-                  <a class="menu" href="#Contact">Contact</a>
-                  -->
                   <a class="menu" ng-click="getPage(0)">Welcome</a><span class="pipe"> </span>
                   <a class="menu" ng-click="getPage(1)">About me</a><span class="pipe"> </span>
                   <a class="menu" ng-click="getPage(2)">Education</a><span class="pipe"> </span>
                   <a class="menu" ng-click="getPage(3)">Experience</a><span class="pipe"> </span>
                   <a class="menu" ng-click="getPage(4)">Skills</a><span class="pipe"></span>
                   <a class="menu" ng-click="getPage(5)">Contact</a>
+                  -->
+                    <!--
+                  <a class="menu" ng-click="back()">TEST</a>
+                  <a class="menu" ng-click="forward()">TEST2</a>
+                  -->
+
+            </div>
+            <br />
+            <br />
+            <div class="btn-group">
+                <a><img ng-click="lang(1)" src="public/img/fr.png" /></a>
+                <a><img ng-click="lang(0)" src="public/img/en.png" /></a>
             </div>
             <br />
             <br />
         </nav>
-        <div id="content" ng-controller="PortfolioCtrl" class="page">
-            <div ng-bind-html="view"></div>
+        <div id="content" ng-controller="PortfolioCtrl" class="page" ng-view ng-model="lang" value="{{ lang }}">
+            <!--<div ng-bind-html="view"></div>-->
         </div>
 
         <!----><script src="public/js/angular.js"></script><!---->

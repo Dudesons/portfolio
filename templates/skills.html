@@ -1,164 +1,174 @@
 <section>
-    <section class="limit-dash">
-        <div class="row">
-            <div class="col-md-4">
-                <h3 class="exec">BUSINESS SKILLS</h3>
-                Knowledge of methods :
-                <ul class="contact">
-                    <li>Agile : Scrum & « Extrem Programming »</li>
-                    <li>Waterfall method</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h3 class="exec">PERSONAL SKILLS</h3>
-                <ul class="contact">
-                    <li>Strong team spirit</li>
-                    <li>Organized and applied</li>
-                    <li>Autonomous and force proposal</li>
-                    <li>Ability to adapt</li>
-                </ul>
-            </div>
+    <div class="row limit-dash">
+        <div class="col-md-4" ng-switch on="lang">
+            <span ng-switch-when="en">
+                <h3 class="exec switch-anim">Business Skills</h3>
+            </span>
+            <span ng-switch-when="fr">
+                <h3 class="exec switch-anim">Compétences professionnelles</h3>
+            </span>
         </div>
-    </section>
-    <section class="limit-dash">
-        <h2>Linux</h2>
-        <img src="public/img/puppet-logo.png" />
-        <article class="col-md-4">
-            Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
-        </article>
-        <br />
-        <br />
-        <h3>projects related to the competence :</h3>
-        <section class="col-xs-offset-1">
-
-            <ul>
-                <li>
-                    <a href="">hjkjj</a>
+        <div class="col-md-4" ng-switch on="lang">
+            <span ng-switch-when="en">
+                <h3 class="exec switch-anim">Technical Skills</h3>
+            </span>
+            <span ng-switch-when="fr">
+                <h3 class="exec switch-anim">Compétences techniques</h3>
+            </span>
+        </div>
+        <div class="col-md-4" ng-switch on="lang">
+            <span ng-switch-when="en">
+                <h3 class="exec switch-anim">Tools</h3>
+            </span>
+            <span ng-switch-when="fr">
+                <h3 class="exec switch-anim">Outils</h3>
+            </span>
+        </div>
+    </div>
+    <div class="row limit-dash">
+        <div class="col-md-4">
+            <ul class="contact">
+                <li><span class="exec"><a href="#DevOps">DevOps</a></span></li>
+                <ul class="contact">
+                    <li><a href="#TimeToMarket">Time to Market</a></li>
+                    <li><a href="#CD">Continuous Delivery</a></li>
+                    <li><a href="#CI">Continuous Integration</a></li>
+                    <li><a href="#Improvement">Continuous Improvement</a></li>
+                    <li><a href="#CAMS">Culture, Automate, Measure and Share</a></li>
+                </ul>
+                <li><span class="exec">Agile</span></li>
+                <ul class="contact">
+                    <li><a href="#Scrum">Scrum</a></li>
+                    <li><a href="#XP">Extrem Programming</a></li>
+                    <li><a href="#Kanban">Kanban</a></li>
+                </ul>
+                <li><a href="#Lean">Lean</a></li>
+                <li><a href="#LeanStartUp">Lean Start Up</a></li>
+                <li><a href="#Waterfall">Waterfall method</a></li>
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">Personnal skills</span>
+                    <span ng-switch-when="fr" class="exec switch-anim">Compétences Personnelles</span>
+                    </span> :
                 </li>
-                <li>
-                    <a href="">kkkjjhj</a>
-                </li>
-                <li>
-                    <a href="">ppmlkjhj</a>
-                </li>
-                <li>
-                    <a href="pplook"></a>
-                </li>
+                <ul class="contact">
+                    <li ng-switch on="lang">
+                        <a href="#StrongTeamSpirit" ng-switch-when="en" class="switch-anim">Strong team spirit</a>
+                        <a href="#StrongTeamSpirit" ng-switch-when="fr" class="switch-anim">Fort esprit d'équipe</a>
+                    </li>
+                    <li ng-switch on="lang">
+                        <a href="#OrganisedAndApplied" ng-switch-when="en" class="switch-anim">Organized and applied</a>
+                        <a href="#OrganisedAndApplied" ng-switch-when="fr" class="switch-anim">Organisé et appliqué</a>
+                    </li>
+                    <li ng-switch on="lang">
+                        <a href="#AutonomousAndForceProposal" ng-switch-when="en" class="switch-anim">Autonomous and force proposal</a>
+                        <a href="#AutonomousAndForceProposal" ng-switch-when="fr" class="switch-anim">Autonome et force de proposition</a>
+                    </li>
+                    <li ng-switch on="lang">
+                        <a href="#AbilityToAdapt" ng-switch-when="en" class="switch-anim">Ability to adapt</a>
+                        <a href="#AbilityToAdapt" ng-switch-when="fr" class="switch-anim">Capacité à s'adapter</a>
+                    </li>
+                </ul>
             </ul>
-        </section>
-
-    </section>
-    <section class="limit-dash">
-        <h2>Linux</h2>
-        <img src="public/img/puppet-logo.png" />
-        <article class="col-md-4">
-            Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
-        </article>
-        <br />
-        <br />
-        <h3>projects related to the competence :</h3>
-        <section class="col-xs-offset-1">
-
-            <ul>
-                <li>
-                    <a href="">hjkjj</a>
+        </div>
+        <div class="col-md-4">
+            <ul class="contact">
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">Operating System & Network</span>
+                    <span class="exec switch-anim" ng-switch-when="fr">Systèmes d'exploitation & Réseau</span>
                 </li>
-                <li>
-                    <a href="">kkkjjhj</a>
+                <ul class="contact">
+                    <li><a href="#Linux">Linux</a></li>
+                    <li><a href="#Windows">Windows</a></li>
+                    <li><a href="#Juniper">Juniper</a></li>
+                    <li><a href="#Cisco">Cisco</a></li>
+                    <li><a href="#OSI">OSI model</a></li>
+                    <li><a href="#TCPIP">TCP / IP</a></li>
+                    <li><a href="#Netfilter">Netfilter</a></li>
+                    <li><a href="#Vsphere">VSphere</a></li>
+                    <li ng-switch on="lang">
+                        <a href="#ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
+                        <a href="#ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
+                    </li>
+                    <li></li>
+                </ul>
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">Programming Languages</span>
+                    <span class="exec switch-anim" ng-switch-when="fr">Langages de Programmation</span>
                 </li>
-                <li>
-                    <a href="">ppmlkjhj</a>
-                </li>
-                <li>
-                    <a href="pplook"></a>
-                </li>
+                <ul class="contact">
+                    <li><a href="#Python">Python</a></li>
+                    <li><a href="#Puppet">Puppet</a></li>
+                    <li><a href="#C">C</a></li>
+                    <li><a href="#Perl">Perl</a></li>
+                    <li><a href="#JavaScript">JavaScript</a></li>
+                    <li><a href="#PHP">PHP</a></li>
+                    <li><a href="#SQL">SQL</a></li>
+                    <li><a href="#HTMLCSS">HTML5 & CSS3</a></li>
+                </ul>
+                <li><span class="exec">Frameworks : </span></li>
+                <ul class="contact">
+                    <li><a href="#Fabric">Fabric</a></li>
+                    <li><a href="#Scapy">Scapy</a></li>
+                    <li><a href="#Django">Django</a></li>
+                    <li><a href="#AngularJS">AngularJS</a></li>
+                    <li><a href="#JQuery">JQuery</a></li>
+                    <li><a href="#D3">D3</a></li>
+                    <li><a href="#RaphaelJS">RaphaelJS</a></li>
+                </ul>
             </ul>
-        </section>
-
-    </section>
-    <section class="limit-dash">
-        <h2>Linux</h2>
-        <img src="public/img/puppet-logo.png" />
-        <article class="col-md-4">
-            Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
-        </article>
-        <br />
-        <br />
-        <h3>projects related to the competence :</h3>
-        <section class="col-xs-offset-1">
-
-            <ul>
-                <li>
-                    <a href="">hjkjj</a>
+        </div>
+        <div class="col-md-4">
+            <ul class="contact">
+                <li><span class="exec">SCM</span> : </li>
+                <ul class="contact">
+                    <li><a href="#Git">Git</a></li>
+                    <li><a href="#GitIHM">GitHub / GitLab</a></li>
+                    <li><a href="#SVN">SVN</a></li>
+                </ul>
+                <li><span class="exec">DevOps</span> : </li>
+                <ul class="contact">
+                    <li><a href="#Docker">Docker</a></li>
+                    <li><a href="#Jenkins">Jenkins</a></li>
+                    <li><a href="#DeployIT">DeployIT</a></li>
+                </ul>
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">Building</span>
+                    <span class="exec switch-anim" ng-switch-when="fr">Compilation</span>
                 </li>
-                <li>
-                    <a href="">kkkjjhj</a>
+                <ul class="contact">
+                    <li><a href="#Ant">Ant</a></li>
+                    <li><a href="#Maven">Maven</a></li>
+                    <li><a href="#Make">Make</a></li>
+                </ul>
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">IT Security</span>
+                    <span class="exec switch-anim" ng-switch-when="fr">Sécurité informatique</span>
                 </li>
-                <li>
-                    <a href="">ppmlkjhj</a>
+                <ul class="contact">
+                    <li><a href="#Nmap">Nmap</a></li>
+                    <li><a href="#Nessus">Nessus</a></li>
+                    <li><a href="#Nexpose">Nexpose</a></li>
+                    <li><a href="#Wireshark">Wireshark</a></li>
+                    <li><a href="#Tshark">Tshark</a></li>
+                    <li><a href="#IPTraf">IPtraf</a></li>
+                    <li><a href="#Netcat">Netcat</a></li>
+                </ul>
+                <li><span class="exec" ng-switch on="lang">Supervision & Monitoring</span> : </li>
+                <ul class="contact">
+                    <li><a href="#ZenOSS">ZenOSS</a></li>
+                </ul>
+                <li ng-switch on="lang">
+                    <span class="exec switch-anim" ng-switch-when="en">Project management</span>
+                    <span class="exec switch-anim" ng-switch-when="fr">Gestion de projets</span>
                 </li>
-                <li>
-                    <a href="pplook"></a>
-                </li>
+                <ul class="contact">
+                    <li><a href="#Redmine">Redmine</a></li>
+                    <li><a href="#Trello">Trello</a></li>
+                    <li><a href="#Gantter">Gantter</a></li>
+                    <li><a href="#Jira">Jira</a></li>
+                    <li><a href="#MSProject">MS project</a></li>
+                </ul>
             </ul>
-        </section>
-
-    </section>
-    <section class="limit-dash">
-        <h2>Linux</h2>
-        <img src="public/img/puppet-logo.png" />
-        <article class="col-md-4">
-            Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
-        </article>
-        <br />
-        <br />
-        <h3>projects related to the competence :</h3>
-        <section class="col-xs-offset-1">
-
-            <ul>
-                <li>
-                    <a href="">hjkjj</a>
-                </li>
-                <li>
-                    <a href="">kkkjjhj</a>
-                </li>
-                <li>
-                    <a href="">ppmlkjhj</a>
-                </li>
-                <li>
-                    <a href="pplook"></a>
-                </li>
-            </ul>
-        </section>
-
-    </section>
-    <section class="limit-dash">
-        <h2>Linux</h2>
-        <img src="public/img/puppet-logo.png" />
-        <article class="col-md-4">
-            Emensis itaque difficultatibus multis et nive obrutis callibus plurimis ubi prope Rauracum ventum est ad supercilia fluminis Rheni, resistente multitudine Alamanna pontem suspendere navium conpage Romani vi nimia vetabantur ritu grandinis undique convolantibus telis, et cum id inpossibile videretur, imperator cogitationibus magnis attonitus, quid capesseret ambigebat.
-        </article>
-        <br />
-        <br />
-        <h3>projects related to the competence :</h3>
-        <section class="col-xs-offset-1">
-
-            <ul>
-                <li>
-                    <a href="">hjkjj</a>
-                </li>
-                <li>
-                    <a href="">kkkjjhj</a>
-                </li>
-                <li>
-                    <a href="">ppmlkjhj</a>
-                </li>
-                <li>
-                    <a href="pplook"></a>
-                </li>
-            </ul>
-        </section>
-
-    </section>
-
+        </div>
+    </div>
 </section>
