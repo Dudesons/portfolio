@@ -1,0 +1,82 @@
+<section>
+    <center>
+        <img src="public/img/python-header.png"/>
+        <h2 class="exec">Python</h2><br />
+    </center>
+    
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            Python is a widely used general-purpose, high-level programming language.<br />
+            Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.<br />
+            Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.<br />
+            It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.<br />
+            Python interpreters are available for installation on many operating systems, allowing Python code execution on a majority of systems.<br />
+            CPython, the reference implementation of Python, is free and open-source software and has a community-based development model, as do nearly all of its alternative implementations. CPython is managed by the non-profit Python Software Foundation.<br />
+            <br />
+            I realized in python :
+            <ul class="contact">
+                <li>
+                    Modules for operating action (ssh connection management, send email ...)
+                </li>
+                <li>
+                    Automating routine tasks (creating specific files from csv files (eg : creating deployit envrionment) ...)
+                </li>
+                <li>
+                    Web developement using the Django framework
+                </li>
+                <li>
+                    Using scapy framework (network scan, sniff)
+                </li>
+                <li>
+                    Deploying with Fabric
+                </li>
+            </ul>
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            Python is a widely used general-purpose, high-level programming language.<br />
+            Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.<br />
+            Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.<br />
+            It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.<br />
+            Python interpreters are available for installation on many operating systems, allowing Python code execution on a majority of systems.<br />
+            CPython, the reference implementation of Python, is free and open-source software and has a community-based development model, as do nearly all of its alternative implementations. CPython is managed by the non-profit Python Software Foundation.<br />
+            <br />
+            J'ai pu réaliser en python :
+            <ul class="contact">
+                <li>
+                    Des modules permettant des actions d'exploitation (gestion de connexions en ssh, envoie d'email ...)
+                </li>
+                <li>
+                    Automatisation de tâches (création de fichiers spécifique à parti de csv ...)
+                </li>
+                <li>
+                    Dévelopement web via la framework Django
+                </li>
+                <li>
+                    Utilisation du framework scapy (scan réseau, sniff)
+                </li>
+                <li>
+                    Déploiement avec Fabric
+                </li>
+            </ul>
+        </section>
+    </article>
+    <article ng-switch on="lang">
+            <h3 class="exec" ng-switch-when="en" class="switch-anim">Python's projects or experiences :</h3>
+            <h3 class="exec" ng-switch-when="fr" class="switch-anim">Projets ou expériences réalisés en Python :</h3>
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="Netpolling">Netpolling</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityStudio">Wemanity</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityBDF">Banque de France</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

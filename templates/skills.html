@@ -28,23 +28,23 @@
     <div class="row limit-dash">
         <div class="col-md-4">
             <ul class="contact">
-                <li><span class="exec"><a href="#DevOps">DevOps</a></span></li>
+                <li><span class="exec"><a ui-sref="DevOps">DevOps</a></span></li>
                 <ul class="contact">
-                    <li><a href="#TimeToMarket">Time to Market</a></li>
-                    <li><a href="#CD">Continuous Delivery</a></li>
-                    <li><a href="#CI">Continuous Integration</a></li>
-                    <li><a href="#Improvement">Continuous Improvement</a></li>
-                    <li><a href="#CAMS">Culture, Automate, Measure and Share</a></li>
+                    <li><a ui-sref="TimeToMarket">Time to Market</a></li>
+                    <li><a ui-sref="CD">Continuous Delivery</a></li>
+                    <li><a ui-sref="CI">Continuous Integration</a></li>
+                    <li><a ui-sref="Improvement">Continuous Improvement</a></li>
+                    <li><a ui-sref="CAMS">Culture, Automate, Measure and Share</a></li>
                 </ul>
                 <li><span class="exec">Agile</span></li>
                 <ul class="contact">
-                    <li><a href="#Scrum">Scrum</a></li>
-                    <li><a href="#XP">Extrem Programming</a></li>
-                    <li><a href="#Kanban">Kanban</a></li>
+                    <li><a ui-sref="Scrum">Scrum</a></li>
+                    <li><a ui-sref="XP">Extrem Programming</a></li>
+                    <li><a ui-sref="Kanban">Kanban</a></li>
                 </ul>
-                <li><a href="#Lean">Lean</a></li>
-                <li><a href="#LeanStartUp">Lean Start Up</a></li>
-                <li><a href="#Waterfall">Waterfall method</a></li>
+                <li><a ui-sref="Lean">Lean</a></li>
+                <li><a ui-sref="LeanStartUp">Lean Start Up</a></li>
+                <li><a ui-sref="Waterfall">Waterfall method</a></li>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Personnal skills</span>
                     <span ng-switch-when="fr" class="exec switch-anim">Compétences Personnelles</span>
@@ -52,20 +52,20 @@
                 </li>
                 <ul class="contact">
                     <li ng-switch on="lang">
-                        <a href="#StrongTeamSpirit" ng-switch-when="en" class="switch-anim">Strong team spirit</a>
-                        <a href="#StrongTeamSpirit" ng-switch-when="fr" class="switch-anim">Fort esprit d'équipe</a>
+                        <a ui-sref="StrongTeamSpirit" ng-switch-when="en" class="switch-anim">Strong team spirit</a>
+                        <a ui-sref="StrongTeamSpirit" ng-switch-when="fr" class="switch-anim">Fort esprit d'équipe</a>
                     </li>
                     <li ng-switch on="lang">
-                        <a href="#OrganisedAndApplied" ng-switch-when="en" class="switch-anim">Organized and applied</a>
-                        <a href="#OrganisedAndApplied" ng-switch-when="fr" class="switch-anim">Organisé et appliqué</a>
+                        <a ui-sref="OrganisedAndApplied" ng-switch-when="en" class="switch-anim">Organized and applied</a>
+                        <a ui-sref="OrganisedAndApplied" ng-switch-when="fr" class="switch-anim">Organisé et appliqué</a>
                     </li>
                     <li ng-switch on="lang">
-                        <a href="#AutonomousAndForceProposal" ng-switch-when="en" class="switch-anim">Autonomous and force proposal</a>
-                        <a href="#AutonomousAndForceProposal" ng-switch-when="fr" class="switch-anim">Autonome et force de proposition</a>
+                        <a ui-sref="AutonomousAndForceProposal" ng-switch-when="en" class="switch-anim">Autonomous and force proposal</a>
+                        <a ui-sref="AutonomousAndForceProposal" ng-switch-when="fr" class="switch-anim">Autonome et force de proposition</a>
                     </li>
                     <li ng-switch on="lang">
-                        <a href="#AbilityToAdapt" ng-switch-when="en" class="switch-anim">Ability to adapt</a>
-                        <a href="#AbilityToAdapt" ng-switch-when="fr" class="switch-anim">Capacité à s'adapter</a>
+                        <a ui-sref="AbilityToAdapt" ng-switch-when="en" class="switch-anim">Ability to adapt</a>
+                        <a ui-sref="AbilityToAdapt" ng-switch-when="fr" class="switch-anim">Capacité à s'adapter</a>
                     </li>
                 </ul>
             </ul>
@@ -77,17 +77,17 @@
                     <span class="exec switch-anim" ng-switch-when="fr">Systèmes d'exploitation & Réseau</span>
                 </li>
                 <ul class="contact">
-                    <li><a href="#Linux">Linux</a></li>
-                    <li><a href="#Windows">Windows</a></li>
-                    <li><a href="#Juniper">Juniper</a></li>
-                    <li><a href="#Cisco">Cisco</a></li>
-                    <li><a href="#OSI">OSI model</a></li>
-                    <li><a href="#TCPIP">TCP / IP</a></li>
-                    <li><a href="#Netfilter">Netfilter</a></li>
-                    <li><a href="#Vsphere">VSphere</a></li>
+                    <li><a ui-sref="Linux">Linux</a></li>
+                    <li><a ui-sref="Windows">Windows</a></li>
+                    <li><a ui-sref="Juniper">Juniper</a></li>
+                    <li><a ui-sref="Cisco">Cisco</a></li>
+                    <li><a ui-sref="OSI">OSI model</a></li>
+                    <li><a ui-sref="TCPIP">TCP / IP</a></li>
+                    <li><a ui-sref="Netfilter">Netfilter</a></li>
+                    <li><a ui-sref="Vsphere">VSphere</a></li>
                     <li ng-switch on="lang">
-                        <a href="#ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
-                        <a href="#ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
+                        <a ui-sref="ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
+                        <a ui-sref="ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
                     </li>
                     <li></li>
                 </ul>
@@ -96,24 +96,24 @@
                     <span class="exec switch-anim" ng-switch-when="fr">Langages de Programmation</span>
                 </li>
                 <ul class="contact">
-                    <li><a href="#Python">Python</a></li>
-                    <li><a href="#Puppet">Puppet</a></li>
-                    <li><a href="#C">C</a></li>
-                    <li><a href="#Perl">Perl</a></li>
-                    <li><a href="#JavaScript">JavaScript</a></li>
-                    <li><a href="#PHP">PHP</a></li>
-                    <li><a href="#SQL">SQL</a></li>
-                    <li><a href="#HTMLCSS">HTML5 & CSS3</a></li>
+                    <li><a ui-sref="Python">Python</a></li>
+                    <li><a ui-sref="Puppet">Puppet</a></li>
+                    <li><a ui-sref="C">C</a></li>
+                    <li><a ui-sref="Perl">Perl</a></li>
+                    <li><a ui-sref="JavaScript">JavaScript</a></li>
+                    <li><a ui-sref="PHP">PHP</a></li>
+                    <li><a ui-sref="SQL">SQL</a></li>
+                    <li><a ui-sref="HTMLCSS">HTML5 & CSS3</a></li>
                 </ul>
                 <li><span class="exec">Frameworks : </span></li>
                 <ul class="contact">
-                    <li><a href="#Fabric">Fabric</a></li>
-                    <li><a href="#Scapy">Scapy</a></li>
-                    <li><a href="#Django">Django</a></li>
-                    <li><a href="#AngularJS">AngularJS</a></li>
-                    <li><a href="#JQuery">JQuery</a></li>
-                    <li><a href="#D3">D3</a></li>
-                    <li><a href="#RaphaelJS">RaphaelJS</a></li>
+                    <li><a ui-sref="Fabric">Fabric</a></li>
+                    <li><a ui-sref="Scapy">Scapy</a></li>
+                    <li><a ui-sref="Django">Django</a></li>
+                    <li><a ui-sref="AngularJS">AngularJS</a></li>
+                    <li><a ui-sref="JQuery">JQuery</a></li>
+                    <li><a ui-sref="D3">D3</a></li>
+                    <li><a ui-sref="RaphaelJS">RaphaelJS</a></li>
                 </ul>
             </ul>
         </div>
@@ -121,52 +121,52 @@
             <ul class="contact">
                 <li><span class="exec">SCM</span> : </li>
                 <ul class="contact">
-                    <li><a href="#Git">Git</a></li>
-                    <li><a href="#GitIHM">GitHub / GitLab</a></li>
-                    <li><a href="#SVN">SVN</a></li>
+                    <li><a ui-sref="Git">Git</a></li>
+                    <li><a ui-sref="GitIHM">GitHub / GitLab</a></li>
+                    <li><a ui-sref="SVN">SVN</a></li>
                 </ul>
                 <li><span class="exec">DevOps</span> : </li>
                 <ul class="contact">
-                    <li><a href="#Docker">Docker</a></li>
-                    <li><a href="#Jenkins">Jenkins</a></li>
-                    <li><a href="#DeployIT">DeployIT</a></li>
+                    <li><a ui-sref="Docker">Docker</a></li>
+                    <li><a ui-sref="Jenkins">Jenkins</a></li>
+                    <li><a ui-sref="DeployIT">DeployIT</a></li>
                 </ul>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Building</span>
                     <span class="exec switch-anim" ng-switch-when="fr">Compilation</span>
                 </li>
                 <ul class="contact">
-                    <li><a href="#Ant">Ant</a></li>
-                    <li><a href="#Maven">Maven</a></li>
-                    <li><a href="#Make">Make</a></li>
+                    <li><a ui-sref="Ant">Ant</a></li>
+                    <li><a ui-sref="Maven">Maven</a></li>
+                    <li><a ui-sref="Make">Make</a></li>
                 </ul>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">IT Security</span>
                     <span class="exec switch-anim" ng-switch-when="fr">Sécurité informatique</span>
                 </li>
                 <ul class="contact">
-                    <li><a href="#Nmap">Nmap</a></li>
-                    <li><a href="#Nessus">Nessus</a></li>
-                    <li><a href="#Nexpose">Nexpose</a></li>
-                    <li><a href="#Wireshark">Wireshark</a></li>
-                    <li><a href="#Tshark">Tshark</a></li>
-                    <li><a href="#IPTraf">IPtraf</a></li>
-                    <li><a href="#Netcat">Netcat</a></li>
+                    <li><a ui-sref="Nmap">Nmap</a></li>
+                    <li><a ui-sref="Nessus">Nessus</a></li>
+                    <li><a ui-sref="Nexpose">Nexpose</a></li>
+                    <li><a ui-sref="Wireshark">Wireshark</a></li>
+                    <li><a ui-sref="Tshark">Tshark</a></li>
+                    <li><a ui-sref="IPTraf">IPtraf</a></li>
+                    <li><a ui-sref="Netcat">Netcat</a></li>
                 </ul>
                 <li><span class="exec" ng-switch on="lang">Supervision & Monitoring</span> : </li>
                 <ul class="contact">
-                    <li><a href="#ZenOSS">ZenOSS</a></li>
+                    <li><a ui-sref="ZenOSS">ZenOSS</a></li>
                 </ul>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Project management</span>
                     <span class="exec switch-anim" ng-switch-when="fr">Gestion de projets</span>
                 </li>
                 <ul class="contact">
-                    <li><a href="#Redmine">Redmine</a></li>
-                    <li><a href="#Trello">Trello</a></li>
-                    <li><a href="#Gantter">Gantter</a></li>
-                    <li><a href="#Jira">Jira</a></li>
-                    <li><a href="#MSProject">MS project</a></li>
+                    <li><a ui-sref="Redmine">Redmine</a></li>
+                    <li><a ui-sref="Trello">Trello</a></li>
+                    <li><a ui-sref="Gantter">Gantter</a></li>
+                    <li><a ui-sref="Jira">Jira</a></li>
+                    <li><a ui-sref="MSProject">MS project</a></li>
                 </ul>
             </ul>
         </div>
