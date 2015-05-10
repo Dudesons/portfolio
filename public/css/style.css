@@ -15,13 +15,30 @@
     margin-bottom:10px;
 }
 
+#hapiness
+{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.techno
+{
+    border-radius:8px;
+    border:1px solid #B5E853;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+    padding:4px 10px;
+    margin:4px;
+}
+
 #anchor*
 {
     text-align:center;
     padding-bottom:5%;
 }
 
-#title-hapiness
+#title-hapiness, .c
 {
     text-align:center;
 }
@@ -33,7 +50,7 @@ nav
     z-index: 2000;
 }
 
-h1:before, h2.exec:before, h3.exec:before
+h1:before, h2.exec:before, h3.exec:before, span.exec:before
 {
     content: "./";
 }
@@ -52,10 +69,18 @@ h1, h2, h3, h4, h5, h6
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+span.exec
+{
+    color: #B5E853;
+    font-family: Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+}
+
 a
 {
     color: #63C0F5;
     text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+    text-decoration:none;
 }
 
 a.menu
@@ -156,10 +181,34 @@ pre
 	top:45%;
 }*/
 
-.page.ng-leave 	{ z-index:9999; }
-.page.ng-enter 	{ z-index:8888; }
+.page.ng-leave, .switch-anim.ng-leave{ z-index:9999; }
+.page.ng-enter, .switch-anim.ng-enter { z-index:8888; }
 
+.switch-anim.ng-leave.ng-leave-active, .switch-anim.ng-leave
+{
+    display:none;
+}
 
+.switch-anim.ng-enter
+{
+    -webkit-animation:fadeIn 0.5s both ease-in;
+	-moz-animation:fadeIn 0.5s both ease-in;
+	animation:fadeIn 0.5s both ease-in;
+}
+
+.page.ng-leave
+{
+    -webkit-animation:bounceOutRight 0.5s both ease-in;
+	-moz-animation:bounceOutRight 0.5s both ease-in;
+	animation:bounceOutRight 0.5s both ease-in;
+}
+
+.page.ng-enter
+{
+    -webkit-animation:bounceInLeft 1s both ease-in;
+	-moz-animation:bounceInLeft 1s both ease-in;
+	animation:bounceInLeft 1s both ease-in;
+}
 /*.page-aboutme.ng-leave, page-welcome.ng-leave, page-edu.ng-leave, page-xp.ng-leave, page-skills.ng-leave, page-contact.ng-leave
 {
     -webkit-animation:slideOutLeft 0.5s both ease-in;

@@ -1,6 +1,89 @@
-<section class="limit-dash" ng-repeat="i in edu.content">
-    <h2>[[ i.school ]]</h2>
-    <div class="date">[[ i.start ]] - [[ i.end ]]</div><br />
-    <p ng-bind-html='renderText("[[ i.desc ]]")'></p>
-    <p></p>
+<section>
+    <section class="limit-dash">
+        <h2>IN'TECH INFO</h2>
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="date switch-anim">March 2011 - March 2016</div>
+            <div ng-switch-when="fr" class="date switch-anim">Mars 2011 - Mars 2016</div>
+        </section>
+        <br />
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="switch-anim">
+                IN'TECH INFO trains professionals at the forefront of new technologies.<br /><br />
+                The school issues titles +3 and +5 (certified Level I RNCP equivalent Master) Expert in software engineering or Expert systems and networks engineering .<br />
+                IN'TECH INFO is distinguished from other schools by its original teaching - often at odds with traditional methods - based on projects in small groups and its high level of supervision provided by permanent teachers and professional experts speakers in their speciality. <br /> <br />
+                Whether or not from a scientific baccalaureate students to develop as their skills by working in teams on a project basis, in work situations comparable to those businesses. <br /> <br />
+                The true geek (computer enthusiast) to simple beginner eager to learn and to succeed his professional life in a carrier field IN'TECH INFO allows everyone to have access to a variety of jobs related to IT. <br /> <br />
+                This is an IT high school with buisiness-oriented studies, I developed and supervised 5 technical projects (eg : create a network scanner that will enable the mapping of the network with a dynamic web interface).<br />
+                Those gave me opportunity to practice my skills (programming, IT security, system, networking, project management ...) and whose objective is to develop a viable solution for a client.<br /><br />
+                In parallel, I participated in 5 no-technical projects (3 wich I was project manager) which were aimed develop complementaries skills such as : management, organization, communication, training, sales ... (eg : give html and css lessons for student in the first year; organize a laser tag party in the ground of the school for 45 peoples ...)<br /><br />
+                <center>
+                    <a ui-sref="ItiProject">See IN'TECH INFO projects </a>
+                </center><br/>
+            </div>
+            <div ng-switch-when="fr" class="switch-anim">
+                IN’TECH INFO forme des professionnels de l’informatique à la pointe des nouvelles technologies.<br /><br />
+                L'école délivre des titres Bac+3 et Bac+5 (certifié par le RNCP Niveau I équivalent Master) d’Expert en ingénierie du logiciel ou d’Expert en ingénierie des systèmes et réseaux.<br />
+                IN’TECH INFO se distingue des autres écoles par sa pédagogie originale – souvent en rupture avec les méthodes traditionnelles – fondée sur la réalisation de projets en petits groupes et par son fort taux d’encadrement assuré par des enseignants permanents et des intervenants professionnels experts dans leur spécialité.<br /><br />
+                Qu’ils soient ou non issus d’un baccalauréat scientifique, les étudiants développent au fur et à mesure leurs compétences en travaillant en équipe en mode projet, dans des situations de travail comparables à celles des entreprises.<br /><br />
+                Du véritable geek (passionné d’informatique) au simple débutant désireux d’apprendre et de réussir sa vie professionnelle dans un domaine porteur, IN’TECH INFO permet à chacun d’avoir accès à une multitude de métiers liés à l’informatique.<br /><br />
+                Cette école avec des études orientées vers lebuisiness, j'ai pu développer et superviser 5 projets techniques (par exemple: créer un scanner de réseau qui permettra à la cartographie du réseau avec une interface web dynamique). <br />
+                Ce qui m'a donné l'occasion de pratiquer mes compétences (programmation, système, réseau, gestion de la sécurité informatique projet ...) et dont l'objectif est de développer une solution viable pour un client. <br /> <br />
+                En parallèle, je participais à 5 projets non techniques (3 dont j'était chef de projet) qui visaient à développer les compétences complémentaires telles que: la gestion, l'organisation, la communication, la formation, la vente ... (par exemple: donner des cours d'HTML et de CSS pour des étudiant en première année; organiser une partie de laser tag au sein l'école pour 45 personnes ...) <br /> <br />
+                <center>
+                    <a ui-sref="ItiProject">Voir les projets IN'TECH INFO</a>
+                </center><br/>
+            </div>
+        </section>
+        <br />
+        <iframe width="560" height="315" src="//www.youtube.com/embed/GBJMYvtaW2A" frameborder="0" allowfullscreen></iframe>
+        <br />
+        <br />
+        <p></p>
+    </section>
+    <section class="limit-dash">
+        <h2>EPITECH</h2>
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="date switch-anim">September 2010 - March 2011</div>
+            <div ng-switch-when="fr" class="date switch-anim">Septembre 2010 - Mars 2011</div>
+        </section><br />
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="switch-anim">
+                This is an IT high school, where I studied the SQL language and elementary programmation with the C language (reprogrammed : stdlib, printf, a shell cli ...)<br /><br />
+                <center>
+                    <a ui-sref="EpitechProject">Voir les projets IN'TECH INFO</a>
+                </center><br/>
+            </div>
+            <div ng-switch-when="fr" class="switch-anim">
+                C'est une école d'expertise en informatique, où j'ai étudié le SQL et de la programmation élémentaire avec le langage C.<br /><br />
+                <center>
+                    <a ui-sref="EpitechProject">Voir les projets IN'TECH INFO</a>
+                </center><br/>
+            </div>
+        </section>
+        <p>
+        </p>
+        <p></p>
+    </section>
+    <section class="limit-dash">
+
+        <section ng-switch on="lang">
+            <h2 ng-switch-when="en" class="switch-anim">Arsonval school</h2>
+            <h2 ng-switch-when="fr" class="switch-anim">Lycée d'Arsonval</h2>
+        </section>
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="date switch-anim">September 2007 - July 2010</div>
+            <div ng-switch-when="fr" class="date switch-anim">Septembre 2007 - Juillet 2010</div>
+        </section><br />
+        <section ng-switch on="lang">
+            <div ng-switch-when="en" class="switch-anim">
+                During this period, I was in the science class in wich I have chosen engineering science specialization.<br />
+                I finished the school with my science baccalaureate.
+            </div>
+            <div ng-switch-when="fr" class="switch-anim">
+                Pendant cette période, j'étais en classe scientifique où j'ai choisi la spécialité sciences de l'ingénieur.<br />
+                J'ai fini le lycée avec mon BAC scientifique - science de l'ingénieur.
+            </div>
+        </section>
+        <br /><br />
+    </section>
 </section>

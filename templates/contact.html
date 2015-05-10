@@ -1,26 +1,63 @@
 <section>
-    <h2>Contact</h2>
+    <h2 class="exec">Contact</h2>
+    <article ng-switch on="lang">
+            <section ng-switch-when="en" class="switch-anim">
+
+            </section>
+            <section ng-switch-when="fr" class="switch-anim">
+
+            </section>
+        </article>
     <ul class="contact">
-        <li>
-            phone : [[ contact.content.phone ]]
+        <li ng-switch on="lang">
+            <span ng-switch-when="en" class="switch-anim">
+                Phone : 00 33 6 79 75 17 17
+            </span>
+            <span ng-switch-when="fr" class="switch-anim">
+                Téléphone : 00 33 6 79 75 17 17
+            </span>
+
         </li>
         <li>
-            email : [[ contact.content.email ]]
+            Email : damdam.gold@gmail.com
         </li>
-        <li>
-            linkedin : <a target="_blank" href="http://fr.linkedin.com/pub/damien-goldenberg/67/347/a7/">linkedin</a>
+        <li ng-switch on="lang">
+            <span ng-switch-when="en" class="switch-anim">
+                Social Networks :
+            </span>
+            <span ng-switch-when="fr" class="switch-anim">
+                Réseaux Sociaux
+            </span>
         </li>
-        <li>
-            viadeo : <a target="_blank" href="http://fr.viadeo.com/fr/profile/damien.goldenberg">viadeo</a>
-        </li>
+        <ul class="contact">
+            <li><a target="_blank" href="http://fr.linkedin.com/pub/damien-goldenberg/67/347/a7/">LinkedIn</a></li>
+            <li><a target="_blank" href="http://fr.viadeo.com/fr/profile/damien.goldenberg">Viadeo</a></li>
+        </ul>
     </ul>
     <br />
     <form>
         <label for="mail">Email : </label><input id="mail" class="form-control" name="mail" type="email">
-        <label for=firstname>Firstname : </label><input id="firstname" class="form-control" name="firstname" type="text">
-        <label for="name">Name : </label><input id="name" class="form-control" name="name" type="text">
+        <section ng-switch on="lang">
+            <label for=firstname><span ng-switch-when="en" class="switch-anim">Firstname</span><span ng-switch-when="fr">Prénom</span>  : </label><input id="firstname" class="form-control" name="firstname" type="text">
+            <label for="name"><span ng-switch-when="en" class="switch-anim">Name</span><span ng-switch-when="fr">Nom</span> : </label><input id="name" class="form-control" name="name" type="text">
+        </section>
         <label for="msg">Message : </label><br/>
         <textarea id="msg" class="form-control" name="msg"></textarea><br/>
-        <center><button type="button" class="btn btn-primary">Envoyer</button></center
+        <center>
+            <section ng-switch on="lang">
+                    <section ng-switch-when="en" class="switch-anim">
+                        <button type="button" class="btn btn-primary">
+                            Send
+                        </button>
+                    </section>
+                    <section ng-switch-when="fr" class="switch-anim">
+                        <button type="button" class="btn btn-primary">
+                            Envoyer
+                        </button>
+                    </section>
+                </section>
+
+        </center>
     </form>
+    <br />
 </section>
