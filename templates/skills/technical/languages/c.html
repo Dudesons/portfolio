@@ -1,0 +1,59 @@
+<section>
+    <center>
+        <img src="public/img/c.png"/>
+        <h2 class="exec">C</h2><br />
+    </center>
+
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            C is an imperative (procedural) language. It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal run-time support.<br />
+            C was therefore useful for many applications that had formerly been coded in assembly language, such as in system programming.<br />
+            Despite its low-level capabilities, the language was designed to encourage cross-platform programming.<br />
+            A standards-compliant and portably written C program can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code.<br />
+            The language has become available on a very wide range of platforms, from embedded microcontrollers to supercomputers.<br />
+            <br />
+            I realized in C language :
+            <ul class="contact">
+                <li>
+                    Rewrite a set of the standard librairy
+                </li>
+                <li>
+                    Create a unix shell
+                </li>
+                <li>
+                    Rewrite C functions like printf & ls
+                </li>
+            </ul>
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            C is an imperative (procedural) language. It was designed to be compiled using a relatively straightforward compiler, to provide low-level access to memory, to provide language constructs that map efficiently to machine instructions, and to require minimal run-time support.<br />
+            C was therefore useful for many applications that had formerly been coded in assembly language, such as in system programming.<br />
+            Despite its low-level capabilities, the language was designed to encourage cross-platform programming.<br />
+            A standards-compliant and portably written C program can be compiled for a very wide variety of computer platforms and operating systems with few changes to its source code.<br />
+            The language has become available on a very wide range of platforms, from embedded microcontrollers to supercomputers.<br />
+            <br />
+            J'ai réalisé en C :
+            <ul class="contact">
+                <li>
+                    Réécriture de la librairie standard
+                </li>
+                <li>
+                    Création d'un terminal unix
+                </li>
+                <li>
+                    Réécriture des fonctions printf et ls
+                </li>
+            </ul>
+        </section>
+    </article>
+    <article ng-switch on="lang">
+            <h3 class="exec" ng-switch-when="en" class="switch-anim">C's projects or experiences :</h3>
+            <h3 class="exec" ng-switch-when="fr" class="switch-anim">Projets ou expériences réalisés en C :</h3>
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="EpitechProject">my_stdlib</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

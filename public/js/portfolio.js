@@ -1,6 +1,6 @@
 (function()
 {
-    var portfolio = angular.module('portfolio', ["ngAnimate", 'ui.bootstrap', 'ui.router']);
+    var portfolio = angular.module('portfolio', ["ngAnimate", 'ui.bootstrap', 'ui.router', 'ncy-angular-breadcrumb']);
     /*Dev Mode : No cache*/
     portfolio.run(function($rootScope, $templateCache)
                     {
@@ -15,6 +15,9 @@
                                     return {
                                         "header":1,
                                         "lang":"en",
+                                        "anchor":{
+
+                                        },
                                         "breadcrumb":{
                                             "welcome":"welcome",
                                             "skills":"skills",
@@ -32,18 +35,38 @@
                                     };
                                 });
 
-    portfolio.config(function($stateProvider, $urlRouterProvider, Share)
+    portfolio.config(function($breadcrumbProvider) {
+$breadcrumbProvider.setOptions({
+template: 'bootstrap2'
+});
+})
+
+    portfolio.config(function($stateProvider, $urlRouterProvider)
     {
+        Share = {"breadcrumb":{
+                                            "welcome":"welcome",
+                                            "skills":"skills",
+                                            "edu":"Education",
+                                            "xp":"Experience",
+                                            "pro":"Professionnal project",
+                                            "stud":"Student project",
+                                            "perso":"Personnal project",
+                                            "strongteam":"Strong team spirit",
+                                            "organised":"Organised and applied",
+                                            "autonomous":"Autonomous and force proposal",
+                                            "ability":"Ability to adapt",
+                                            "security":"IT security"
+                                        }};
         $urlRouterProvider.otherwise('/');
         $stateProvider
-            .state('Init', {
+            /*.state('Init', {
                         url: "/",
                         ncyBreadcrumbLabel: {
                             label: Share.breadcrumb.welcome
                         },
                         templateUrl: 'templates/welcome.html',
                         controller: 'PortfolioCtrl'
-                    })
+                    })*/
             .state('Welcome', {
                         url: "/",
                         ncyBreadcrumbLabel: {
@@ -118,6 +141,33 @@
                             parent: Share.breadcrumb.pro
                         },
                         templateUrl: 'templates/projects/wemanityproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
+            .state('WemanityStudio', {
+                        url: "/WemanityProject",
+                        ncyBreadcrumbLabel: {
+                            label: "Wemanity",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/wemanityproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
+            .state('WemanityBDF', {
+                        url: "/WemanityProject",
+                        ncyBreadcrumbLabel: {
+                            label: "Wemanity",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/wemanityproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
+            .state('One2TeamProject', {
+                        url: "/One2TeamProject",
+                        ncyBreadcrumbLabel: {
+                            label: "Wemanity",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/one2teamproject.html',
                         controller: 'PortfolioCtrl'
                     })
             .state('CAMS', {
@@ -687,8 +737,17 @@
                 templateUrl: 'templates/projects/itiproject.html',
                 controller: 'PortfolioCtrl'
             })
+            .state('Netpolling', {
+                        url: "/Netpolling",
+                        ncyBreadcrumbLabel: {
+                            label: "IN'Tech INFO",
+                            parent: Share.breadcrumb.stud
+                        },
+                templateUrl: 'templates/projects/itiproject.html',
+                controller: 'PortfolioCtrl'
+            })
             .state('EpitechProject', {
-                        url: "/",
+                        url: "/EpitechProject",
                         ncyBreadcrumbLabel: {
                             label: "Epitech",
                             parent: Share.breadcrumb.stud
@@ -731,12 +790,17 @@
                                                         };
                                     });
 
-    portfolio.controller("PortfolioCtrl", function($scope, Share)
+    portfolio.controller("PortfolioCtrl", function($scope, Share, $location)
                                         {
                                             $scope.lang = Share.lang;
                                             $scope.$on('UpdateLang', function()
                                                                         {
                                                                             $scope.lang = Share.lang;
                                                                         }, true);
+                                            console.log(($location.path()).substring(1));
+                                            if(($location.path()).substring(1) in Share.anchor)
+                                            {
+
+                                            }
                                         });
 })();

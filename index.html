@@ -54,18 +54,18 @@
                   <!---->
                     <article ng-switch on="langH">
                         <section ng-switch-when="en" class="switch-anim">
-                            <a class="menu" href="#Welcome">Welcome</a><span class="pipe"> </span>
-                            <a class="menu" href="#Edu">Training</a><span class="pipe"> </span>
-                            <a class="menu" href="#Xp">Experiences</a><span class="pipe"> </span>
-                            <a class="menu" href="#Skills">Skills</a><span class="pipe"></span>
-                            <a class="menu" href="#Contact">Contact</a>
+                            <a class="menu" ui-sref="Welcome">Welcome</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Edu">Training</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Xp">Experiences</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Skills">Skills</a><span class="pipe"></span>
+                            <a class="menu" ui-sref="Contact">Contact</a>
                         </section>
                         <section ng-switch-when="fr" class="switch-anim">
-                            <a class="menu" href="#Welcome">Accueil</a><span class="pipe"> </span>
-                            <a class="menu" href="#Edu">Education</a><span class="pipe"> </span>
-                            <a class="menu" href="#Xp">Expériences</a><span class="pipe"> </span>
-                            <a class="menu" href="#Skills">Compétences</a><span class="pipe"></span>
-                            <a class="menu" href="#Contact">Contact</a>
+                            <a class="menu" ui-sref="Welcome">Accueil</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Edu">Education</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Xp">Expériences</a><span class="pipe"> </span>
+                            <a class="menu" ui-sref="Skills">Compétences</a><span class="pipe"></span>
+                            <a class="menu" ui-sref="Contact">Contact</a>
                         </section>
                     </article>
 
@@ -93,8 +93,9 @@
             </div>
             <br />
             <br />
+            <!--<div ncy-breadcrumb></div>-->
         </nav>
-        <div id="content" ng-controller="PortfolioCtrl" class="page" ng-view ng-model="lang" value="{{ lang }}">
+        <div id="content" ng-controller="PortfolioCtrl" class="page" ui-view ng-model="lang" value="{{ lang }}">
             <!--<div ng-bind-html="view"></div>-->
         </div>
 
