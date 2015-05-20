@@ -31,7 +31,8 @@
                                             "autonomous":"Autonomous and force proposal",
                                             "ability":"Ability to adapt",
                                             "security":"IT security"
-                                        }
+                                        },
+                                        "timeline": []
                                     };
                                 });
 
@@ -757,7 +758,23 @@ template: 'bootstrap2'
             });
   });
 
-
+    portfolio.directive("scroll", function ($window, Share)
+                                    {
+                                        return function(scope, element, attrs)
+                                                {
+                                                    angular.element($window).bind("scroll", function()
+                                                                                            {
+                                                                                                if (Share.timeline.length > 0)
+                                                                                                 {
+                                                                                                     if (Share.timeline[0].getBoundingClientRect().top <= this.pageYOffset)
+                                                                                                     {
+                                                                                                         Share.timeline[0].className = Share.timeline[0].className.search("timeline-inverted") >= 0 ? "timeline-inverted timeline-elem timeline-anim1" : "timeline-elem timeline-anim0";
+                                                                                                         Share.timeline.shift();
+                                                                                                     }
+                                                                                                 }
+                                                                                            });
+                                                };
+                                    });
 
     /*portfolio.directive("scroll", function ($window)
                                     {
@@ -797,6 +814,17 @@ template: 'bootstrap2'
                                                                         {
                                                                             $scope.lang = Share.lang;
                                                                         }, true);
+                                            Share.timeline = function()
+                                                            {
+                                                                var r = document.getElementsByClassName("timeline-elem");
+                                                                var l = Array();
+                                                                for(var i = 0; i < r.length; i++)
+                                                                {
+                                                                    l.push(r[i])
+                                                                }
+                                                                return l
+                                                            }();
+
                                             console.log(($location.path()).substring(1));
                                             if(($location.path()).substring(1) in Share.anchor)
                                             {
