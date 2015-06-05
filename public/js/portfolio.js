@@ -766,7 +766,7 @@ template: 'bootstrap2'
                                                                                             {
                                                                                                 if (Share.timeline.length > 0)
                                                                                                  {
-                                                                                                     if (Share.timeline[0].getBoundingClientRect().top <= this.pageYOffset)
+                                                                                                     if (Share.timeline[0].getBoundingClientRect().top <= (this.pageYOffset + (screen.height * 0.8)))
                                                                                                      {
                                                                                                          Share.timeline[0].className = Share.timeline[0].className.search("timeline-inverted") >= 0 ? "timeline-inverted timeline-elem timeline-anim1" : "timeline-elem timeline-anim0";
                                                                                                          Share.timeline.shift();
