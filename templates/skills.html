@@ -1,4 +1,4 @@
-<section>
+<section id="skills">
     <div class="row limit-dash">
         <div class="col-md-4" ng-switch on="lang">
             <span ng-switch-when="en">
@@ -8,7 +8,7 @@
                 <h3 class="exec switch-anim">Compétences professionnelles</h3>
             </span>
         </div>
-        <div class="col-md-4" ng-switch on="lang">
+        <div class="col-md-4  col-md-offset-4" ng-switch on="lang">
             <span ng-switch-when="en">
                 <h3 class="exec switch-anim">Technical Skills</h3>
             </span>
@@ -16,35 +16,20 @@
                 <h3 class="exec switch-anim">Compétences techniques</h3>
             </span>
         </div>
-        <div class="col-md-4" ng-switch on="lang">
-            <span ng-switch-when="en">
-                <h3 class="exec switch-anim">Tools</h3>
-            </span>
-            <span ng-switch-when="fr">
-                <h3 class="exec switch-anim">Outils</h3>
-            </span>
-        </div>
     </div>
     <div class="row limit-dash">
         <div class="col-md-4">
             <ul class="contact">
-                <li><span class="exec"><a ui-sref="DevOps">DevOps</a></span></li>
-                <ul class="contact">
-                    <li><a ui-sref="TimeToMarket">Time to Market</a></li>
-                    <li><a ui-sref="CD">Continuous Delivery</a></li>
-                    <li><a ui-sref="CI">Continuous Integration</a></li>
-                    <li><a ui-sref="Improvement">Continuous Improvement</a></li>
-                    <li><a ui-sref="CAMS">Culture, Automate, Measure and Share</a></li>
-                </ul>
-                <li><span class="exec">Agile</span></li>
+
+                <li><span class="exec">Management</span></li>
                 <ul class="contact">
                     <li><a ui-sref="Scrum">Scrum</a></li>
                     <li><a ui-sref="XP">Extrem Programming</a></li>
                     <li><a ui-sref="Kanban">Kanban</a></li>
+                    <li><a ui-sref="Lean">Lean</a></li>
+                    <li><a ui-sref="LeanStartUp">Lean Start Up</a></li>
+                    <li><a ui-sref="Waterfall">Waterfall method</a></li>
                 </ul>
-                <li><a ui-sref="Lean">Lean</a></li>
-                <li><a ui-sref="LeanStartUp">Lean Start Up</a></li>
-                <li><a ui-sref="Waterfall">Waterfall method</a></li>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Personnal skills</span>
                     <span ng-switch-when="fr" class="exec switch-anim">Compétences Personnelles</span>
@@ -70,7 +55,7 @@
                 </ul>
             </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4  col-md-offset-4">
             <ul class="contact">
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Operating System & Network</span>
@@ -79,17 +64,14 @@
                 <ul class="contact">
                     <li><a ui-sref="Linux">Linux</a></li>
                     <li><a ui-sref="Windows">Windows</a></li>
-                    <li><a ui-sref="Juniper">Juniper</a></li>
-                    <li><a ui-sref="Cisco">Cisco</a></li>
                     <li><a ui-sref="OSI">OSI model</a></li>
                     <li><a ui-sref="TCPIP">TCP / IP</a></li>
-                    <li><a ui-sref="Netfilter">Netfilter</a></li>
-                    <li><a ui-sref="Vsphere">VSphere</a></li>
+                    <li><a ui-sref="Cloud">Cloud</a></li>
+                    <li><a ui-sref="Monitroing">Supervision & Monitoring</a></li>
                     <li ng-switch on="lang">
                         <a ui-sref="ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
                         <a ui-sref="ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
                     </li>
-                    <li></li>
                 </ul>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Programming Languages</span>
@@ -97,14 +79,21 @@
                 </li>
                 <ul class="contact">
                     <li><a ui-sref="Python">Python</a></li>
-                    <li><a ui-sref="Puppet">Puppet</a></li>
                     <li><a ui-sref="C">C</a></li>
                     <li><a ui-sref="Perl">Perl</a></li>
                     <li><a ui-sref="JavaScript">JavaScript</a></li>
-                    <li><a ui-sref="PHP">PHP</a></li>
-                    <li><a ui-sref="SQL">SQL</a></li>
-                    <li><a ui-sref="HTMLCSS">HTML5 & CSS3</a></li>
                 </ul>
+                <li><span class="exec">DevOps</span></li>
+                <ul class="contact">
+                    <li><a ui-sref="CD">Continuous Delivery</a></li>
+                    <li><a ui-sref="CD">Continuous Deployment</a></li>
+                    <li><a ui-sref="CI">Continuous Integration</a></li>
+                    <li><a ui-sref="CAMS">Culture, Automate, Measure and Share</a></li>
+                    <li><a ui-sref="IAC">Infrastructure as Code</a></li>
+                    <li><a ui-sref="SCM">Source Code Management</a></li>
+                    <li><a ui-sref="SCM">Packaging</a></li>
+                </ul>
+                <!--
                 <li><span class="exec">Frameworks : </span></li>
                 <ul class="contact">
                     <li><a ui-sref="Fabric">Fabric</a></li>
@@ -115,14 +104,15 @@
                     <li><a ui-sref="D3">D3</a></li>
                     <li><a ui-sref="RaphaelJS">RaphaelJS</a></li>
                 </ul>
+                -->
             </ul>
         </div>
+        <!--
         <div class="col-md-4">
             <ul class="contact">
                 <li><span class="exec">SCM</span> : </li>
                 <ul class="contact">
                     <li><a ui-sref="Git">Git</a></li>
-                    <li><a ui-sref="GitIHM">GitHub / GitLab</a></li>
                     <li><a ui-sref="SVN">SVN</a></li>
                 </ul>
                 <li><span class="exec">DevOps</span> : </li>
@@ -149,13 +139,13 @@
                     <li><a ui-sref="Nessus">Nessus</a></li>
                     <li><a ui-sref="Nexpose">Nexpose</a></li>
                     <li><a ui-sref="Wireshark">Wireshark</a></li>
-                    <li><a ui-sref="Tshark">Tshark</a></li>
-                    <li><a ui-sref="IPTraf">IPtraf</a></li>
-                    <li><a ui-sref="Netcat">Netcat</a></li>
+                    <li><a ui-sref="TCPDump">Tcpdump</a></li>
                 </ul>
                 <li><span class="exec" ng-switch on="lang">Supervision & Monitoring</span> : </li>
                 <ul class="contact">
                     <li><a ui-sref="ZenOSS">ZenOSS</a></li>
+                    <li><a ui-sref="DataDog">DataDog</a></li>
+                    <li><a ui-sref="ELK">ELK</a></li>
                 </ul>
                 <li ng-switch on="lang">
                     <span class="exec switch-anim" ng-switch-when="en">Project management</span>
@@ -165,10 +155,9 @@
                     <li><a ui-sref="Redmine">Redmine</a></li>
                     <li><a ui-sref="Trello">Trello</a></li>
                     <li><a ui-sref="Gantter">Gantter</a></li>
-                    <li><a ui-sref="Jira">Jira</a></li>
-                    <li><a ui-sref="MSProject">MS project</a></li>
                 </ul>
             </ul>
         </div>
+        -->
     </div>
 </section>
