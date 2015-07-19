@@ -177,7 +177,7 @@ template: 'bootstrap2'
                             label: "Culture Automate Measure Share",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/cams.html',
+                templateUrl: 'templates/skills/technical/devops/cams.html',
                 controller: 'PortfolioCtrl'
             })
             .state('DevOps', {
@@ -186,7 +186,7 @@ template: 'bootstrap2'
                             label: "DevOps",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/devops.html',
+                templateUrl: 'templates/skills/technical/devops/devops.html',
                 controller: 'PortfolioCtrl'
             })
             .state('TimeToMarket', {
@@ -204,7 +204,7 @@ template: 'bootstrap2'
                             label: "Continuous Delivery",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/cd.html',
+                templateUrl: 'templates/skills/technical/devops/cd.html',
                 controller: 'PortfolioCtrl'
             })
             .state('CD2', {
@@ -213,16 +213,7 @@ template: 'bootstrap2'
                             label: "Continuous Deployment",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/cd2.html',
-                controller: 'PortfolioCtrl'
-            })
-            .state('CI', {
-                        url: "/CI",
-                        ncyBreadcrumbLabel: {
-                            label: "Continuous Integration",
-                            parent: Share.breadcrumb.skills
-                        },
-                templateUrl: 'templates/skills/business/ci.html',
+                templateUrl: 'templates/skills/technical/devops/cd2.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Improvement', {
@@ -231,7 +222,7 @@ template: 'bootstrap2'
                             label: "/Improvement",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/improvement.html',
+                templateUrl: 'templates/skills/technical/devops/improvement.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Scrum', {
@@ -249,7 +240,7 @@ template: 'bootstrap2'
                             label: "Extrem programming",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/business/xp.html',
+                templateUrl: 'templates/skills/technical/devops/xp.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Kanban', {
@@ -340,24 +331,6 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.skills
                         },
                 templateUrl: 'templates/skills/technical/os-network/windows.html',
-                controller: 'PortfolioCtrl'
-            })
-            .state('Juniper', {
-                        url: "/Juniper",
-                        ncyBreadcrumbLabel: {
-                            label: "Juniper",
-                            parent: Share.breadcrumb.skills
-                        },
-                templateUrl: 'templates/skills/technical/os-network/juniper.html',
-                controller: 'PortfolioCtrl'
-            })
-            .state('Cisco', {
-                        url: "/Cisco",
-                        ncyBreadcrumbLabel: {
-                            label: "Cisco",
-                            parent: Share.breadcrumb.skills
-                        },
-                templateUrl: 'templates/skills/technical/os-network/cisco.html',
                 controller: 'PortfolioCtrl'
             })
             .state('OSI', {
@@ -582,7 +555,16 @@ template: 'bootstrap2'
                             label: "Jenkins",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/tools/devops/jenkins.html',
+                templateUrl: 'templates/skills/technical/devops/jenkins.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('Codeship', {
+                        url: "/Codeship",
+                        ncyBreadcrumbLabel: {
+                            label: "Codeship",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/devops/codeship.html',
                 controller: 'PortfolioCtrl'
             })
             .state('DeployIT', {
@@ -754,6 +736,33 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.stud
                         },
                 templateUrl: 'templates/projects/epitechproject.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('IAC', {
+                        url: "/InfrastructureAsCode",
+                        ncyBreadcrumbLabel: {
+                            label: "Infrastructure as Code",
+                            parent: Share.breadcrumb.stud
+                        },
+                templateUrl: 'templates/skills/technical/devops/iac.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('Container', {
+                        url: "/container",
+                        ncyBreadcrumbLabel: {
+                            label: "Infrastructure as Code",
+                            parent: Share.breadcrumb.stud
+                        },
+                templateUrl: 'templates/skills/skills/technical/devops/container.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('CI', {
+                        url: "/CI",
+                        ncyBreadcrumbLabel: {
+                            label: "Continuous integration",
+                            parent: Share.breadcrumb.stud
+                        },
+                templateUrl: 'templates/skills/technical/devops/ci.html',
                 controller: 'PortfolioCtrl'
             });
   });

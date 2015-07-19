@@ -1,0 +1,102 @@
+<section ng-switch on="lang">
+    <center>
+        <img src="public/img/jenkins.png">
+        <h2 class="exec c">Jenkins</h2><br>
+    </center>
+    <section ng-switch-when="en" class="switch-anim">
+        Jenkins is an open source continuous integration tool written in Java. The project was forked from Hudson after a dispute with Oracle.<br />
+        Jenkins provides continuous integration services for software factory. It is a server-based system running in a servlet container such as Apache Tomcat or with a embed server.<br />
+        It supports SCM tools such as Git, CVS, Subversion, ... and can execute Apache Ant and Apache Maven based projects as well as arbitrary shell scripts and Windows batch commands.<br />
+        Build can be started by various means, including being triggered by commit in a version control system, scheduling via a cron-like mechanism, building when other builds have completed, by requesting a specific build URL ...<br />
+        <br />
+        With Jenkins, I could set up multiple continuous integration workflow for quite varied technologies like java, php, python, nodejs, javascript ... <br />
+        Also I write generally jenkins job with tasks <a ui-sref="Fabric"> fabric </a> to have no code in the CI and you can easily migrate to another CI if necessary. <br />
+        I Jenkins also expanded with the use of the <a ui-sref="Docker"> docker </a>, when a job was a container Started was launched to run tasks in a secluded and clean environment. <br />
+        I could link Jenkins to scm systems such as Github.
+    </section>
+    <section ng-switch-when="fr" class="switch-anim">
+        Jenkins est un outil d'intégration continue open source écrit en Java. Le projet est un fork de Hudson après une dispute avec Oracle. <br />
+        Jenkins fournit des services d'intégration continue pour l'usine logiciel. C'est un système basé qui peut tourner dans un conteneur de servlet comme Apache Tomcat ou avec son serveur embarqué. <br />
+        Il prend en charge les outils de SCM comme Git, CVS, Subversion, ... et peut exécuter des projets basés Apache Ant et Apache Maven ainsi que des scripts shell arbitraires, les commandes batch Windows, du code python ... <br />
+        Un build (lancement d'un processus jenkins) peut être démarré par divers moyens, comme le commit dans un système de gestion de version peut en déclencher, la planification via un mécanisme de type cron, la construction lorsque d'autres builds sont terminé, en demandant une URL spécifique de construction ...<br />
+        <br />
+        Avec Jenins, j'ai pu mettre en place plusieurs workflow d'intégration continue pour des technologies assez varié comme java, php, python, nodejs, javascript ...<br />
+        Egalement j'écris en général les job jenkins avec des tâches <a ui-sref="Fabric">fabric</a> afin de ne pas avoir de code dans la CI et pouvoir migrer facilement vers une autre CI si necéssaires.<br />
+        J'ai également étendu Jenkins avec l'utilisation de l'outil <a ui-sref="Docker">docker</a>, lorsqu'un job était démaré un container était lancé pour lancer les tâches dans un environnement isolé et propre.<br />
+        J'ai pu lier Jenkins à des systèmes de scm tel que Github.
+    </section>
+    <article ng-switch on="lang">
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Jenkins experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés avec Jenkins :</h3>
+        <br />
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Wemanity</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            <h3 class="exec" >Jenkins point of view</h3>
+            Jenkins makes it possible an integration server more or less rapid to implement depending on the choice of target architecture (standalone servlet server, slave master ...). <br />
+            This implies a more or less administrative costs depending on the architecture and integrated plugins. <br />
+            It has the advantage of being flexible and allowing suddenly able to really personalize their continuous integration system. <br />
+            There is a strong community that creates and maintains plugins that will allow the incorporation of tools and adding functionality, such as slack plugins for sending the result of a job on a particular channel.<br />
+            With jenkins, it is possible to create workflows according with the resulat of a job.<br />
+            The risk with this tool is leaving the scope of continuous integration which amounts to :
+            <ul class="contact">
+                <li>
+                    Builder (build, compile ... software).
+                    </li>
+                <li>
+                    Test.
+                </li>
+                <li>
+                    Packaged if all previous steps have worked.
+                </li>
+                <li>
+                    Delivered a package into an artifact repository.
+                </li>
+            </ul>
+            <br />
+            Compared to its concucents, Jenkins has the advantage of being usable in its infrastructure without firing a license but it can also be used under the Software as a service format.<br />
+            Jenkins has a lot of competitor generally paid (either a license or format Software as Service), they have the advantage that there is no set up and administer the servuer continuous integration.
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            <h3 class="exec" >Point de vue de Jenkins</h3>
+            Jenkins permet de mettre un serveur d'intégration plus ou moins rapide à mettre en place selon le choix d'architecture ciblé (standalone, servlet serveur, master slave ...).<br />
+            Ce qui implique un cout d'administration plus ou moins important selon l'architecture et les plugins intégré.<br />
+            Il a l'avantage d'être flexible et de permettre du coup de pouvoir vraiment personnaliser son système d'intégration continue.<br />
+            Il y a une forte communauté qui crée et maintien des plugins qui vont permettre l'incorporation d'outil et d'ajout de fonctionnalité, comme le plugins slack qui permet d'envoyer le résultat d'un job sur un channel particulier.<br />
+            Avec jenkins on peut créer des workflows selon le résulat d'un job.<br />
+            Le risque avec cet outil est de sortir du cadre de l'intégration continue qui se résume à :
+            <ul class="contact">
+                <li>
+                    Builder (construire, compiler ... le logiciel).
+                    </li>
+                <li>
+                    Tester.
+                </li>
+                <li>
+                    Packagé si l'ensemble des étapes précédentes se sont bien passé.
+                </li>
+                <li>
+                    Livré le package dans un repositorie d'artifact.
+                </li>
+            </ul>
+            <br />
+            Comparé à ses concucents, Jenkins à l'avantage d'être utilisable dans son infrastructure sans coup de licence mais il peut être aussi utilisé sous le format Software as a service.<br />
+            Jenkins a beaucoup de concurent en général payant (soit une licence soit au format Software as Service), ils ont l'avantage qu'il n'y a pas à configurer et administrer le servuer d'intégration continue.
+        </section>
+    </article>
+</section>

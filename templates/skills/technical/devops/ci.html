@@ -1,0 +1,127 @@
+<section ng-switch on="lang">
+    <section ng-switch-when="en" class="switch-anim">
+        <h3 class="exec c">Continuous Integration</h3><br /><br />
+        Two goals of the continuous integration is :
+        <ul class="contact">
+            <li>
+                that the software is in a working state all the time.
+            </li>
+            <li>
+                To determine if the current release candidate is not the release
+            </li>
+        </ul>
+        <br />
+        Continuous integration is often based on the implementation of a software component to automate tasks like : compilation, unit and functional testing, product validation, performance testing...<br />
+        At each change of the code, the software component will perform a set of tasks and produce a set of results (test, code coverage ...), <br /> after the developer can then consult it.
+        This integration lets not forget items at the start of production and therefore improve the quality of the product.<br /><br />
+
+        To apply this technique, you must first:
+        <ul class="contact">
+            <li>
+                The source code is shared (using version control software such as git, svn, etc.)
+            </li>
+            <li>
+                Developers integrate (commit) their changes daily
+            </li>
+            <li>
+                Integration tests are developed to validate the application
+            </li>
+        </ul>
+        <br />
+        <br />
+        A continuous integration server is then required, as Jenkins.Other tools, like SonarQube can be set up a monitoring of the quality of the code.<br />
+        The main advantages of this technique are developing :
+        <ul class="contact">
+            <li>
+                The immediate test changes
+            </li>
+            <li>
+                Early notification in case of inconsistent or missing code
+            </li>
+            <li>
+                Integration problems are detected and repaired continuously, avoiding the problems of last minute
+            </li>
+            <li>
+                A version is always available for testing, demonstration or distribution
+            </li>
+        </ul>
+    </section>
+    <section ng-switch-when="fr" class="switch-anim">
+        <h3 class="exec c">Continuous Integration</h3><br /><br />
+        Two goals of the continuous integration is :
+        <ul class="contact">
+            <li>
+                that the software is in a working state all the time.
+            </li>
+            <li>
+                To determine if the current release candidate is not the release
+            </li>
+        </ul>
+        L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances...<br />
+        À chaque changement du code, cette brique logicielle va exécuter un ensemble de tâches et produire un ensemble de résultats (test, code coverage ...), que le développeur peut par la suite consulter.<br />
+        Cette intégration permet ainsi de ne pas oublier d'éléments lors de la mise en production et donc ainsi améliorer la qualité du produit.<br /><br />
+
+        Pour appliquer cette technique, il faut d'abord que :
+        <ul class="contact">
+            <li>
+                Le code source soit partagé (en utilisant des logiciels de gestion de versions tels que CVS, Subversion, git, Mercurial, etc)
+            </li>
+            <li>
+                Les développeurs intègrent (commit) quotidiennement (au moins) leurs modifications
+            </li>
+            <li>
+                Des tests d'intégration soient développés pour valider l'application
+            </li>
+        </ul>
+        <br />
+        <br />
+        Un serveur d'intégration continue est ensuite nécessaire, tel que Jenkins. D'autres outils, comme SonarQube peut être mis en place afin de superviser la qualité du code.<br />
+        Les principaux avantages d'une telle technique de développement sont :
+        <ul class="contact">
+            <li>
+                Le test immédiat des modifications
+            </li>
+            <li>
+                La notification rapide en cas de code incompatible ou manquant
+            </li>
+            <li>
+                Les problèmes d'intégration sont détectés et réparés de façon continue, évitant les problèmes de dernière minute
+            </li>
+            <li>
+                Une version est toujours disponible pour un test, une démonstration ou une distribution
+            </li>
+        </ul>
+    </section>
+    <article ng-switch on="lang">
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Continuous integration tools :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Outil d'intégration continue :</h3>
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="Jenkins">Jenkins</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="Codeship">Codeship</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+    <article ng-switch on="lang">
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Continuous integration experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés autour de l'intégration continue :</h3>
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Wemanity</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

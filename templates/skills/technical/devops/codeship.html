@@ -1,0 +1,56 @@
+<section ng-switch on="lang">
+    <center>
+        <img src="public/img/codeship.png">
+        <h2 class="exec c">Codeship</h2><br>
+    </center>
+    <section ng-switch-when="en" class="switch-anim">
+        Codeship is a proprietary continuous integration tool only available as a the format Service as a Software.<br />
+        Codeship is avaible as free plan with limited build and no concurented build.<br />
+        It supports only two integration of SCM tools (Git and bitbucket).<br />
+        This is a CI for python, ruby, node.js, php, java and golang technologies<br />
+        Build can be started by 2 means :
+        <ul class="contact">
+            <li>
+                Triggered by commit in a version control system
+            </li>
+            <li>
+                Manually
+            </li>
+        </ul>
+        <br />
+        With Codeship, I only set up continuous integration workflow for python ... <br />
+        Also I write codeship workflow with <a ui-sref="Bash">bash</a> script to have no code in the CI and you can easily migrate to another CI if necessary. <br />
+    </section>
+    <section ng-switch-when="fr" class="switch-anim">
+        
+    </section>
+    <article ng-switch on="lang">
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Codeship experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés avec Codeship :</h3>
+        <br />
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            <h3 class="exec" >Jenkins point of view</h3>
+            Codeship makes it possible an continuous integration as a service quickly. <br />
+            There is no administrative costs but if you need a package who is not available in the service you have to request it to the support and waiting if they will integrate this. <br />
+            It's not so flexible and not allowing suddenly able to really personalize their continuous integration system than <a ui-sref="Jenkins">jenkins</a>. <br />
+            There is a strong support who gives usually a fast response (except for package integration application).<br />
+            Codeship is limited by technologies for the CI and it's not possible to install in your personal infrastrucutre.<br />
+            Codeship leaves the scope of continuous integration because after the CI tasks it deploys directly into the server so it mixes the <a ui-sref="CI">continuous integration</a> and <a ui-sref="CD">continuous delivery</a> principles<br /><br/>
+
+            Compared to its concucents, Codeship has the advantage of being usable very quickly, it doesn't need administrator and it have a free plan.<br />
+            On the other hand it's limited by the scm tools, the technologies languages are limited and it can be run correctly for simple workflow.
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            <h3 class="exec" >Point de vue de Codeship</h3>
+
+        </section>
+    </article>
+</section>
