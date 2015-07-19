@@ -69,11 +69,16 @@ h1, h2, h3, h4, h5, h6
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-span.exec
+span.exec, .geek_code
 {
     color: #B5E853;
     font-family: Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+.content_geek_code
+{
+    margin-left:5%;
 }
 
 a
