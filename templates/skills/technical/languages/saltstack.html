@@ -1,0 +1,139 @@
+<section>
+    <center>
+        <img src="public/img/puppet-logo.png"/>
+        <h2 class="exec">Puppet</h2><br />
+    </center>
+
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            Puppet is a configuration management system that allows you to define the state of your IT infrastructure, then automatically enforces the correct state.<br />
+            Whether you're managing just a few servers or thousands of physical and virtual machines, Puppet automates tasks that sysadmins often do manually, freeing up time and mental space so sysadmins can work on the projects that deliver greater business value.<br />
+            Whether you're deploying vendor-supplied applications or working with a team of internal software developers, Puppet automates every step of the software delivery process: from provisioning of physical and virtual machines to orchestration and reporting; from early-stage code development through testing, production release and updates.<br />
+            Puppet ensures consistency, reliability and stability.<br />
+            It also facilitates closer collaboration between sysadmins and developers, enabling more efficient delivery of cleaner, better-designed code.<br />
+            <br />
+
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            Puppet est un système de gestion de configuration qui vous permet de définir l'état de votre infrastructure informatique, puis applique automatiquement le bon état de configuration.<br />
+            Que vous gériez quelques serveurs ou des milliers de machines physiques et virtuelles, Puppet automatise les tâches que des sysadmins font souvent manuellement; libérant ainsi du temps et de la tranquilité afin que des administrateurs système peuvent travailler sur des projets qui offrent une plus grande valeur de l'entreprise.<br />
+            Que vous deployez l'applications fournies par le fabricant ou travailler avec une équipe de développeurs de logiciels internes, Puppet automatise tout les pas du processus de livraison de logiciel : depuis le provisioning de la machine physique ou virtuelle jusqu'à l'orchestration et le reporting; du développement de code à un stade précoce au moyen de tests , mise en production et de mises à jour.<br />
+            Puppet assure la cohérence , la fiabilité et la stabilité.<br />
+            Il facilite également la collaboration plus étroite entre les administrateurs système et les développeurs , permettant une livraison plus efficace, plus clair et mieux conçus.<br />
+            <br />
+            J'ai principalement développer des modules Puppet lors de mes différentes missions permettant de gérer par exemple :
+            <ul>
+                <li>
+                    les couches réseaux (ex : routages)
+                </li>
+                <li>
+                    système (ex : utilisateurs, variables d'environnement ...)
+                </li>
+                <li>
+                    middleware (tomcat, nginx ...).
+                </li>
+                <li>
+                    projets internes selon les différentes missions (gestion d'aborrescence, droits, lien ...).
+                </li>
+                <li>
+                    logiciels (ex : java, autosys, maven ...).
+                </li>
+            </ul>
+            Egalement, en plus d'avoir développer des modules, j'ai pu admistrater un cloud de plus de 200 serveurs RedHat grâce à Puppet dans le cadre d'une solution en SaaS.<br />
+            De même j'ai géré la migration de puppet 2.6 vers puppet 3.2<br />
+        </section>
+    </article>
+    <article ng-switch on="lang">
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Puppet's experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés en Puppet :</h3>
+        <br />
+        <ul>
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Wemanity</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            <h3 class="exec" >Puppet point of view</h3>
+            Puppet begins to gain interest from the time when we start having to manage at least 10 machines.
+            It allows to set up an architecture for managing the IT infrastructure as highly accomplished like :
+            <ul class="contact">
+                <li>
+                    Roles and profiles management
+                </li>
+                <li>
+                    Outsourcing data so that different nodes may have information between them
+                </li>
+                <li>
+                    The use of clear language
+                </li>
+                <li>
+                    Management of extensive machine feature  (physical machine or virtual, what hypervisor type, OS type, Os version, CPU usage ...)
+                </li>
+                <li>
+                    An open source version and an enterprise
+                </li>
+                <li>
+                    A strong community around puppet
+                </li>
+                <li>
+                    A set of tools enhancing Puppet like puppetlint to verify if the "style guide" of puppetlabs is respected, the RPSEC that allows to make TDD (Test Driven Document), Beeker (test aceptance) R10K (deployment of puppet modules) ...
+                </li>
+            </ul>
+            <br />
+            Compared with its concucents.
+            Puppet has three main competitors which are Chef SaltStack & Ansible.
+            Chef lot like puppet but I could not work on it to make me a sufficiently constructive notice
+            <br />
+            Saltstack & Ansible differs from puppet that their system is based on yaml files.<br />
+            Saltstack uses Jinja template also to enable the implementation of conditional system. It is based on a master slave model as a puppet but a connection stability issues on cloud or between cloud environements is unstable.<br />
+            Ansible has a system conditional programming but in yaml syntaxe like, it also differs by having a single machine and then control the infrastructure nodes via ssh.
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            <h3 class="exec" >Point de vue de Puppet</h3>
+            Puppet commence à prendre de l'interêt à partir du moment où on commence à devoir gérer au moins 10 machines.
+            Il permet de mettre en place une architecture de la gestion du parc informatique très abouti comme :
+            <ul class="contact">
+                <li>
+                    la gestion de rôles et de profiles
+                </li>
+                <li>
+                    l'externalisation des données afin que différents noeuds peuvent avoir des information entre eux
+                </li>
+                <li>
+                    L'utilisation d'un langage clair
+                </li>
+                <li>
+                    Une gestion des caractéristique des machines poussées (machine physique ou virtuelle, quelle type d'hyperviseur, type d'OS, version de l'OS, utilisation du processeur ...)
+                </li>
+                <li>
+                    Une version opensource et une "enterprise"
+                </li>
+                <li>
+                    Une forte communauté autour de puppet
+                </li>
+                <li>
+                    Un ensemble d'outils renforçant Puppet, comme les puppetlint qui permet de vérifier si le "style guide" de puppetlabs est respecté, les rpsec qui permette de faire du TDD (Test Driven Document), Beeker (test d'aceptance), R10K (déploiement des modules puppet) ...
+                </li>
+            </ul>
+            <br />
+            Comparé à ses concucents.
+            Puppet a trois principale concurents qui sont Chef, SaltStack & Ansible.
+            Chef ressemble beaucoup à puppet mais je n'ai pas pu travailler dessus pour me faire un avis suffisament constructif
+            <br />
+            Saltstack & Ansible se différencie de puppet par le fait que leur système est basé sur des fichiers yaml.<br />
+            Saltstack utilise également le système de template jinja pour permettre la mise en place de système de conditions. Il est basé sur un modèle master slave comme puppet mais a des problèmes de stabilité de connexion sur des environements de cloud ou inter cloud.<br />
+            Ansible a un système de conditions aussi mais sous forme de yaml, il se différencie aussi par le fait d'avoir qu'une seule machine puis de controler les noeuds de l'infrastructure par ssh.
+        </section>
+    </article>
+</section>

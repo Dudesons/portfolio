@@ -1,0 +1,31 @@
+<section>
+    <center>
+        <img src="public/img/cd2.png"/>
+        <h2 class="exec">Continuous Delivery</h2><br />
+    </center>
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            Continuous Deployment means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day.<br />
+            <a ui-sref="CD">Continuous Delivery</a> just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment.<br />
+            In order to do Continuous Deployment you must be doing <a ui-sref="CD">Continuous Delivery</a>.<br />
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+
+        </section>
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Continuous Deployment experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés autour du Continuous Deployment :</h3>
+        <br />
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

@@ -1,0 +1,67 @@
+<section>
+    <center>
+        <img src="public/img/cd.png"/>
+        <h2 class="exec">Continuous Delivery</h2><br />
+    </center>
+<pre class="c">
+“The essence of my philosophy to software delivery is to build software so that it is always in a state where it could be put into production.
+We call this Continuous Delivery because we are continuously running a deployment pipeline that tests if this software is in a state to be delivered.”
+</pre>
+— Jez Humble<br /><br />
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            Getting software released to users is often a painful, risky, and time-consuming process.<br />
+            Continuous Delivery can help organizations become lean, agile and innovative.<br />
+            Through reliable, low-risk releases, Continuous Delivery makes it possible to continuously adapt software in line with user feedback, shifts in the market and changes to business strategy.<br />
+            Test, support, development and operations work together as one delivery team to automate and streamline the build, test and release process.<br />
+            You’re doing continuous delivery when :
+            <ul class="contact">
+                <li>
+                    Your software is deployable throughout its lifecycle
+                </li>
+                <li>
+                    Your team prioritizes keeping the software deployable over working on new features
+                </li>
+                <li>
+                    Anybody can get fast, automated feedback on the production readiness of their systems any time somebody makes a change to them
+                </li>
+                <li>
+                    You can perform push-button deployments of any version of the software to any environment on demand
+                </li>
+            </ul>
+            You achieve continuous delivery by continuously integrating the software done by the development team, building executables, and running automated tests on those executables to detect problems.<br />
+            Furthermore you push the executables into increasingly production-like environments to ensure the software will work in production.<br />
+            To do this you use a Deployment Pipeline.<br />
+            The principal benefits of continuous delivery are:
+            <ul class="contact">
+                <li>
+                    Reduced Deployment Risk: since you are deploying smaller changes, there's less to go wrong and it's easier to fix should a problem appear.
+                </li>
+                <li>
+                    Believable Progress: many folks track progress by tracking work done. If "done" means "developers declare it to be done" that's much less believable than if it's deployed into a production (or production-like) environment.
+                </li>
+                <li>
+                    User Feedback: the biggest risk to any software effort is that you end up building something that isn't useful. The earlier and more frequently you get working software in front of real users, the quicker you get feedback to find out how valuable it really is
+                </li>
+            </ul>
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+
+        </section>
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Continuous Delivery experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés autour du Continuous Delivery :</h3>
+        <br />
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+            <li>
+                <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

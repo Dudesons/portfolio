@@ -1,3 +1,53 @@
 <section>
+    <center>
+        <img src="public/img/iac.png">
+        <h2 class="exec c">Infrastructure as Code</h2><br>
+    </center>
+    <article ng-switch on="lang">
+        <section ng-switch-when="en" class="switch-anim">
+            Infrastructure as code, means writing code (which can be done using a high level language or any descriptive language) to manage configurations and automate provisioning of infrastructure in addition to deployments.<br />
+            This is not simply writing scripts, but involves using tested and proven software development practices that are already being used in application development.<br />
+            For example: version control, testing, small deployments, use of design patterns etc ...<br />
+            In short, this means you write code to provision and manage your server, in addition to automating processes.<br />
+            It differs from infrastructure automation, which just involves replicating steps multiple times and reproducing them on several servers.<br />
+            With this, the knowledge of server provisioning, configuration management and deployment is no longer only with the systems admins.<br />
+            Even developers can easily engage in the activities, because they can easily write infrastructure code in the languages that they are familiar with.<br />
+            In addition to this, the learning curve for most descriptive languages used by tools like <a ui-sref="Puppet">Puppet</a> is not very steep.<br />
+            This makes devops even simpler for a developer.<br />
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
 
+        </section>
+        <article ng-switch on="lang">
+            <h3 class="exec" >Infrastructure as Code tools :</h3>
+            <br />
+            <ul class="contact">
+                <li>
+                    <span class="techno"><a ui-sref="Puppet">Puppet</a></span><br /><br />
+                </li>
+                <li>
+                    <span class="techno"><a ui-sref="SaltStack">SaltStack</a></span><br /><br />
+                </li>
+            </ul>
+        </article>
+        <article ng-switch on="lang">
+            <h3 class="exec" ng-switch-when="en" class="switch-anim">Infrastructure as Code experiences :</h3>
+            <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés autour de l'Infrastructure as Code :</h3>
+            <br />
+            <ul class="contact">
+                <li>
+                    <span class="techno"><a ui-sref="TraxairProject">Traxair Music Technologies</a></span><br /><br />
+                </li>
+                <li>
+                    <span class="techno"><a ui-sref="WemanityProject">Wemanity</a></span><br /><br />
+                </li>
+                <li>
+                    <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+                </li>
+                <li>
+                    <span class="techno"><a ui-sref="One2TeamProject">ONE2TEAM</a></span><br /><br />
+                </li>
+            </ul>
+        </article>
+    </article>
 </section>

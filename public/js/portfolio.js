@@ -208,7 +208,7 @@ template: 'bootstrap2'
                 controller: 'PortfolioCtrl'
             })
             .state('CD2', {
-                        url: "/CD",
+                        url: "/CD2",
                         ncyBreadcrumbLabel: {
                             label: "Continuous Deployment",
                             parent: Share.breadcrumb.skills
@@ -394,6 +394,15 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.skills
                         },
                 templateUrl: 'templates/skills/technical/languages/puppet.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('SaltStack', {
+                        url: "/SaltStack",
+                        ncyBreadcrumbLabel: {
+                            label: "SaltStack",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/languages/saltstack.html',
                 controller: 'PortfolioCtrl'
             })
             .state('C', {
@@ -816,7 +825,7 @@ template: 'bootstrap2'
                                                         };
                                     });
 
-    portfolio.controller("PortfolioCtrl", function($scope, Share, $location)
+    portfolio.controller("PortfolioCtrl", function($scope, Share, $location, $anchorScroll)
                                         {
                                             $scope.lang = Share.lang;
                                             $scope.$on('UpdateLang', function()
@@ -835,9 +844,22 @@ template: 'bootstrap2'
                                                             }();
 
                                             console.log(($location.path()).substring(1));
-                                            if(($location.path()).substring(1) in Share.anchor)
+                                            var uri_path = String(($location.path()).substring(1));
+                                            if(uri_path in Share.anchor)
                                             {
 
                                             }
+
+                                            //if (uri_path != '' || uri_path != 'Edu' || uri_path != 'Skills' || uri_path != 'Contact' || uri_path != 'Xp')
+                                            if (uri_path != '')
+                                            {
+                                                $location.hash('top-menu');
+                                                console.log(typeof uri_path);
+                                            }
+                                            else
+                                            {
+                                                $location.hash("HeaderWelcome")
+                                            }
+                                            $anchorScroll();
                                         });
 })();
