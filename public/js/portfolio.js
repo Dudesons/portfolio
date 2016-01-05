@@ -135,6 +135,15 @@ template: 'bootstrap2'
                         templateUrl: 'templates/projects/persoproject.html',
                         controller: 'PortfolioCtrl'
                     })
+            .state('TraxAirProject', {
+                        url: "/TraxAirProject",
+                        ncyBreadcrumbLabel: {
+                            label: "TraxAir",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/traxairproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
             .state('WemanityProject', {
                         url: "/WemanityProject",
                         ncyBreadcrumbLabel: {
@@ -169,6 +178,24 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.pro
                         },
                         templateUrl: 'templates/projects/one2teamproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
+            .state('ZamirenProject', {
+                        url: "/ZamirenProject",
+                        ncyBreadcrumbLabel: {
+                            label: "Wemanity",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/zamirenproject.html',
+                        controller: 'PortfolioCtrl'
+                    })
+            .state('CaComProject', {
+                        url: "/CaComProject",
+                        ncyBreadcrumbLabel: {
+                            label: "Wemanity",
+                            parent: Share.breadcrumb.pro
+                        },
+                        templateUrl: 'templates/projects/zamirenproject.html',
                         controller: 'PortfolioCtrl'
                     })
             .state('CAMS', {
@@ -214,6 +241,24 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.skills
                         },
                 templateUrl: 'templates/skills/technical/devops/cd2.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('SCM', {
+                        url: "/SCM",
+                        ncyBreadcrumbLabel: {
+                            label: "SCM",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/devops/scm.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('Packaging', {
+                        url: "/Packaging",
+                        ncyBreadcrumbLabel: {
+                            label: "Packaging",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/devops/packaging.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Improvement', {
@@ -549,13 +594,13 @@ template: 'bootstrap2'
                 templateUrl: 'templates/skills/tools/scm/svn.html',
                 controller: 'PortfolioCtrl'
             })
-            .state('Docker', {
-                        url: "/Docker",
+            .state('LinuxContainerDocker', {
+                        url: "/LinuxContainerDocker",
                         ncyBreadcrumbLabel: {
                             label: "Docker",
                             parent: Share.breadcrumb.skills
                         },
-                templateUrl: 'templates/skills/tools/devops/docker.html',
+                templateUrl: 'templates/skills/tools/devops/linux_container_docker.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Jenkins', {

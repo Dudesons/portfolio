@@ -1,0 +1,38 @@
+<section ng-switch on="lang">
+    <center>
+            <img src="public/img/tux.png">
+            <h3 class="exec c">Linux</h3>
+        </center>
+        <br /><br />
+    <section ng-switch-when="en" class="switch-anim">
+
+        <br />
+        On Windows server, I deployed :
+        <ul class="contact">
+            <li>
+                Application in different languages (java, php, python, javascript)
+            </li>
+        </ul>
+        I administrate, Linux system like:
+        <ul class="contact">
+            <li>
+                Writing powershell script
+            </li>
+            <li>
+                Managing user, group, environment variable
+            </li>
+        </ul>
+    </section>
+    <section ng-switch-when="fr" class="switch-anim">
+    </section>
+    <article>
+        <h3 class="exec" ng-switch-when="en" class="switch-anim">Windows experiences :</h3>
+        <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés autour de Windows :</h3>
+        <br />
+        <ul class="contact">
+            <li>
+                <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+            </li>
+        </ul>
+    </article>
+</section>

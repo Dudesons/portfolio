@@ -1,16 +1,29 @@
 <section ng-switch on="lang">
     <section ng-switch-when="en" class="switch-anim">
-        <h3 class="exec c">Continuous Integration</h3><br /><br />
+        <center>
+            <img src="public/img/ci.png"/>
+            <h3 class="exec c">Continuous Integration</h3><br /><br />
+        </center>
+        <pre class="c">
+            “Continuous Integration doesn’t get rid of bugs, but it does make them dramatically easier to find and remove.”
+        </pre>
+        — Martin Fowler, Chief Scientist, ThoughtWorks<br /><br />
+        <h3>Solve problems quickly</h3>
         Two goals of the continuous integration is :
         <ul class="contact">
             <li>
-                that the software is in a working state all the time.
+                The software is in a working state all the time.
             </li>
             <li>
                 To determine if the current release candidate is not the release
             </li>
         </ul>
         <br />
+        Because you’re integrating so frequently, there is significantly less back-tracking to discover where things went wrong, so you can spend more time building features.<br />
+        Continuous Integration is cheap. Not continuously integrating is costly.<br />
+        If you don’t follow a continuous approach, you’ll have longer periods between integrations.<br />
+        This makes it exponentially more difficult to find and fix problems.<br />
+        Such integration problems can easily knock a project off-schedule, or cause it to fail altogether.<br />
         Continuous integration is often based on the implementation of a software component to automate tasks like : compilation, unit and functional testing, product validation, performance testing...<br />
         At each change of the code, the software component will perform a set of tasks and produce a set of results (test, code coverage ...), <br /> after the developer can then consult it.
         This integration lets not forget items at the start of production and therefore improve the quality of the product.<br /><br />
