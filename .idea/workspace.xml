@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab05b26-66ea-4106-a6d1-ba5859656c93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/projects/cacomproject.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/skills/tools/devops/docker.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/edu.html" afterPath="$PROJECT_DIR$/templates/edu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projects/itiproject.html" afterPath="$PROJECT_DIR$/templates/projects/itiproject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/projects/zamirenproejct.html" afterPath="$PROJECT_DIR$/templates/projects/zamirenproject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projects/one2teamproject.html" afterPath="$PROJECT_DIR$/templates/projects/one2teamproject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/portfolio.js" afterPath="$PROJECT_DIR$/public/js/portfolio.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projects/proproject.html" afterPath="$PROJECT_DIR$/templates/projects/proproject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills.html" afterPath="$PROJECT_DIR$/templates/skills.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/welcome.html" afterPath="$PROJECT_DIR$/templates/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolio2.iws" />
@@ -43,19 +36,41 @@
       <file leaf-file-name="proproject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/projects/proproject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.31034482" vertical-offset="0" max-vertical-offset="3600">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="28" />
+            <state vertical-scroll-proportion="-3.189655" vertical-offset="2173" max-vertical-offset="3600">
+              <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portfolio.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7434053" vertical-offset="2836" max-vertical-offset="16470">
-              <caret line="192" column="36" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="36" />
+            <state vertical-scroll-proportion="-12.451612" vertical-offset="3160" max-vertical-offset="16470">
+              <caret line="197" column="62" selection-start-line="197" selection-start-column="62" selection-end-line="197" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cacomproject.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/projects/cacomproject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25411764" vertical-offset="270" max-vertical-offset="702">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="skills.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/skills.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.111111" vertical-offset="303" max-vertical-offset="2394">
+              <caret line="74" column="25" selection-start-line="71" selection-start-column="20" selection-end-line="74" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,18 +78,28 @@
       <file leaf-file-name="one2teamproject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/projects/one2teamproject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.8181818" vertical-offset="0" max-vertical-offset="648">
-              <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
+            <state vertical-scroll-proportion="-2.9886363" vertical-offset="169" max-vertical-offset="918">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zamirenproejct.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/projects/zamirenproejct.html">
+      <file leaf-file-name="itiproject.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/projects/itiproject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="288">
-              <caret line="3" column="56" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="56" />
+            <state vertical-scroll-proportion="-9.703704" vertical-offset="2852" max-vertical-offset="5796">
+              <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zamirenproject.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/projects/zamirenproject.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="12" column="102" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -113,10 +138,12 @@
         <option value="$PROJECT_DIR$/templates/edu.html" />
         <option value="$PROJECT_DIR$/templates/projects/itiproject.html" />
         <option value="$PROJECT_DIR$/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/templates/projects/zamirenproejct.html" />
-        <option value="$PROJECT_DIR$/templates/projects/proproject.html" />
-        <option value="$PROJECT_DIR$/templates/projects/one2teamproject.html" />
         <option value="$PROJECT_DIR$/public/js/portfolio.js" />
+        <option value="$PROJECT_DIR$/templates/projects/one2teamproject.html" />
+        <option value="$PROJECT_DIR$/templates/projects/zamirenproejct.html" />
+        <option value="$PROJECT_DIR$/templates/projects/zamirenproject.html" />
+        <option value="$PROJECT_DIR$/templates/projects/proproject.html" />
+        <option value="$PROJECT_DIR$/templates/projects/cacomproject.html" />
       </list>
     </option>
   </component>
@@ -498,7 +525,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3876652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3876652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -542,13 +569,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/projects/epitechproject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/proproject.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -835,16 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6556992" vertical-offset="90" max-vertical-offset="2394">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/edu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1169451" vertical-offset="0" max-vertical-offset="1656">
@@ -869,14 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects/itiproject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29116946" vertical-offset="4796" max-vertical-offset="5796">
-          <caret line="280" column="66" selection-start-line="280" selection-start-column="56" selection-end-line="280" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/xp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54994124" vertical-offset="0" max-vertical-offset="851">
@@ -893,34 +895,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects/zamirenproejct.html">
+    <entry file="file://$PROJECT_DIR$/public/js/portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="56" />
+        <state vertical-scroll-proportion="-12.451612" vertical-offset="3160" max-vertical-offset="16470">
+          <caret line="197" column="62" selection-start-line="197" selection-start-column="62" selection-end-line="197" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/projects/itiproject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.703704" vertical-offset="2852" max-vertical-offset="5796">
+          <caret line="173" column="36" selection-start-line="173" selection-start-column="36" selection-end-line="173" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/proproject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31034482" vertical-offset="0" max-vertical-offset="3600">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="28" />
+        <state vertical-scroll-proportion="-3.189655" vertical-offset="2173" max-vertical-offset="3600">
+          <caret line="131" column="47" selection-start-line="131" selection-start-column="47" selection-end-line="131" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.111111" vertical-offset="303" max-vertical-offset="2394">
+          <caret line="74" column="25" selection-start-line="71" selection-start-column="20" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/one2teamproject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8181818" vertical-offset="0" max-vertical-offset="648">
-          <caret line="4" column="226" selection-start-line="4" selection-start-column="226" selection-end-line="4" selection-end-column="226" />
+        <state vertical-scroll-proportion="-2.9886363" vertical-offset="169" max-vertical-offset="918">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/portfolio.js">
+    <entry file="file://$PROJECT_DIR$/templates/projects/zamirenproject.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7434053" vertical-offset="2836" max-vertical-offset="16470">
-          <caret line="192" column="36" selection-start-line="192" selection-start-column="36" selection-end-line="192" selection-end-column="36" />
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="12" column="102" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/projects/cacomproject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25411764" vertical-offset="270" max-vertical-offset="702">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding />
         </state>
       </provider>

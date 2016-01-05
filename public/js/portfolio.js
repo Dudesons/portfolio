@@ -195,7 +195,7 @@ template: 'bootstrap2'
                             label: "Wemanity",
                             parent: Share.breadcrumb.pro
                         },
-                        templateUrl: 'templates/projects/zamirenproject.html',
+                        templateUrl: 'templates/projects/cacomproject.html',
                         controller: 'PortfolioCtrl'
                     })
             .state('CAMS', {

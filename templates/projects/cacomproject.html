@@ -1,0 +1,34 @@
+<section ng-switch on="lang">
+    <section>
+        <h3 class="exec">Security Engineer</h3>
+        <center>
+            <img src="public/img/cacom-logo.png" /><br /><br />
+        </center>
+        <section ng-switch-when="en" class="switch-anim">
+            Durring this mission, I test and implement some tools like vulnerability management tool and procedures about IT security.<br /><br />
+            <span class="exec">Tasks</span> :
+            <ul class="contact">
+                <li>Preparing an awareness campaign about IT security risk in the group</li>
+                <li>Defining a security policy</li>
+                <li>Launch vulnerability security audit</li>
+            </ul>
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            Durant cette mission, j'ai testé et implémenté des outils des gestionnaires de vulnerabilité et des procédures de sécurité informatique<br /><br />
+            <span class="exec">Tasks</span> :
+            <ul class="contact">
+                <li>Préparer une campagne de sensibilisation à propos des risques de la sécurité informatique dans le groupe</li>
+                <li>Definir une politique de sécurité</li>
+                <li>Lancer des audit de sécurité sur les vulnéarabilités</li>
+            </ul>
+        </section>
+    </section>
+    <br />
+    <section>
+        <span class="exec">Technologies</span> : <br /><br />
+        <span class="techno">
+            <a ui-sref="ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
+            <a ui-sref="ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
+        </span>
+    </section>
+</section>
