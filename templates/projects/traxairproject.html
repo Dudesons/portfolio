@@ -1,25 +1,81 @@
-<section>
+<section ng-switch on="lang" class="col-xs-offset-1">
     <section>
-        <h3 class="exec">DevOps Consultant</h3>
-        <section class="col-xs-offset-1">
-            <h4>Banque de France</h4>
-            <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
-            </section>
-            <h4>Wemanity Studio</h4>
-            <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
-            </section>
+        <h3 class="exec">DevOps engineer</h3>
+        <center>
+            <img src="public/img/traxair-logo.png" /><br /><br />
+        </center>
+        <section ng-switch-when="en" class="switch-anim">
+            During my last year of part time I decided to change of companie to confront me more interesting challenges and also discover the world of startups. <br />
+            During this experience, I could apply what I have discussed around the DevOps during meetups or with ex co-worker.<br />
+            My mission consists to manage the infrastructure in the cloud, establishing the software factory, setting up continuous delivery.<br /><br />
+            <span class="exec">Tasks</span> :
+            <ul class="contact">
+                <li>Puppet module development (mesos, marathon, docker swarm ...)</li>
+                <li>Create docker containers (rest services, queue services, gpu)</li>
+                <li>Set up a continuous integration for microservices architecture based on jenkins, docker, python, fabric (running each job in a container)</li>
+                <li>Deploying docker container cluster with docker swarm</li>
+                <li>Participate on the microservices architecture</li>
+                <li>Monitor the infrastruture with datadog</li>
+                <li>Python code for creating virtual machines on the cloud</li>
+                <li>Write saltstack module</li>
+                <li>Make presentations at meetup</li>
+            </ul>
+        </section>
+        <section ng-switch-when="fr" class="switch-anim">
+            Lors de ma dernière année d'altenance j'ai décidé de changer d'entreprise afin de me confronter à des challenges plus intéressant et également découvrir le monde de la startup.<br />
+            Pendant cette expérience, j'ai pu appliquer ce dont j'avais pu discuter autour du DevOps au cours de meetups ou avec des anciens collègue de travail.<br />
+            Ma mission consiste à gérer l'infrastructure dans le nuage, en établissant l'usine du logiciel, la mise en place la prestation continue.<br /><br />
+            <span class="exec">Tâches</span> :
+            <ul class="contact">
+                <li>Développement de module Puppet (mesos, marathon, docker swarm ...)</li>
+                <li>Création de containers docker (services rest services, message queue, gpu)</li>
+                <li>Mise en place d'une intégration continue for l'architecture microservices basée sur jenkins, docker, python, fabric (chaque "job" est lancé dans un container)</li>
+                <li>Déploiement de cluster de container docker avec swarm</li>
+                <li>Participer à l'architecture microservices</li>
+                <li>Monitoring de l'infrastruture</li>
+                <li>Ecrire des modules saltstack</li>
+                <li>Faire des présentations lors de meetup</li>
+            </ul>
         </section>
     </section>
+    <br />
+    <br />
     <section>
-        <h3 class="exec">DevOps Engineer, RD</h3>
-        <section class="col-xs-offset-1">
-            <h4>Wemanity Studio</h4>
-            <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
-            </section>
-        </section>
+        <span class="exec">Technologies</span> : <br /><br />
+        <span class="techno"><a ui-sref="CD">Continuous Delivery</a></span>
+        <span class="techno"><a ui-sref="CI">Continuous Integration</a></span>
+        <span class="techno"><a ui-sref="LinuxContainerDocker">Docker</a></span>
+        <span class="techno"><a ui-sref="Python">Python</a></span><br /><br />
+        <span class="techno"><a ui-sref="IAC">Infrastructure as Code</a></span>
+        <span class="techno"><a ui-sref="SCM">Git</a></span>
+        <span class="techno"><a ui-sref="Linux">Linux</a></span>
+        <span class="techno"><a ui-sref="Networking">Networking</a></span>
+    </section>
+    <br /><br />
+    <section>
+        <span ng-switch-when="en" class="switch-anim exec">Human Skills</span>
+        <span ng-switch-when="fr" class="switch-anim exec">Compétences humaines</span>
+        : <br /><br />
+                <span class="techno">
+                    <a ui-sref="Python">
+                        Communication
+                    </a>
+                </span>
+                <span class="techno">
+                    <a ui-sref="Puppet">
+                        Scrum
+                    </a>
+                </span>
+                <span ng-switch-when="en" class="switch-anim techno">
+                    <a ui-sref="Jenkins">
+                        Transfer of knowledges
+                    </a>
+                </span>
+                <span ng-switch-when="fr" class="switch-anim techno">
+                    <a ui-sref="Jenkins">
+                        Transfert de connaissances
+                    </a>
+                </span>
     </section>
 </section>
 <br />

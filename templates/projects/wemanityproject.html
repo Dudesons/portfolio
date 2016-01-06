@@ -1,23 +1,95 @@
-<section>
+<section ng-switch on="lang">
     <section>
         <h3 class="exec">DevOps Consultant</h3>
+        <center>
+            <img src="public/img/wemanity-logo.png" /><br /><br />
+        </center>
         <section class="col-xs-offset-1">
-            <h4>Banque de France</h4>
-            <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
+            Durant cette expérience, j'ai pu approfondir mes connaissances dans le domaine du DevOps par la formation d'une communauté DevOps au sein de Wemanity.<br />
+            <h4 class="exec">Banque de France</h4>
+            <section ng-switch-when="en" class="switch-anim">
+                This was my first mission as consultant.<br />
+                I was in charge of setting up automatic deployment from the development environment to Production for several internal projects in France bank.<br />
+                I had also to automate installation of middlewares and software composents for the software factory with <a ui-sref="IAC">infrastructure as code</a>.<br /><br />
+                <span class="exec">Tasks</span> :
+                <ul class="contact">
+                    <li>Packaging of the application with ant or maven</li>
+                    <li>Creating the environment Deployit for some projects</li>
+                    <li>Deployment with Deployit</li>
+                    <li>Puppet module development for the software factory (with hiera)</li>
+                    <li>Python, PowerShell, Bash scripting</li>
+                </ul>
             </section>
-            <h4>Wemanity Studio</h4>
-            <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
+            <section ng-switch-when="fr" class="switch-anim">
+                C'était ma première mission en tant que consultant.<br />
+                J'étais en charge de mettre en place du déploiement automatique depuis l'environnement de développement jusqu'en production pour plusieurs projet internes à la Banque de France.<br />
+                Egalement j'ai eu à automatiser l'installation des middlewares et des composants logiciel pour l'usine logicielle avec de l'<a ui-sref="IAC">infrastructure as code</a>.<br /><br />
+                <span class="exec">Tâches</span> :
+                <ul class="contact">
+                    <li>Packaging des applications avec ant ou maven</li>
+                    <li>Création des environement Deployit for des projets</li>
+                    <li>Déploiement avec Deployit</li>
+                    <li>Développement de module Puppet pour l'usine logicielle (avec hiera)</li>
+                    <li>Scripting avec Python, PowerShell, Bash</li>
+                </ul>
             </section>
-        </section>
-    </section>
-    <section>
-        <h3 class="exec">DevOps Engineer, RD</h3>
-        <section class="col-xs-offset-1">
-            <h4>Wemanity Studio</h4>
+            <br />
+            <br />
+            <h4 class="exec">Wemanity Studio</h4>
+            <section ng-switch-when="en" class="switch-anim">
+                When I was in the Wemanity studio I worked on :
+                <ul class="contact">
+                    <li>Establishment of a virtualized infrastructure</li>
+                    <li>P.O.C : SDN (Software Defined Network) with Docker and Weave</li>
+                    <li>Implementation of integration and continuous delivery solutions for some projects</li>
+                </ul>
+            </section>
+            <section ng-switch-when="fr" class="switch-anim">
+                Lors de mon passage au sein du studio de Wemanity j'ai pu travailler sur :
+                <ul class="contact">
+                    <li>Mise en place d’une infrastructure virtualisé</li>
+                    <li>P.O.C : SDN (Software Defined Network) avec Docker et Weave</li>
+                    <li>Mise en place de solutions d’intégration et livraison continue pour des projets</li>
+                </ul>
+            </section>
+            <br />
+            <br />
             <section>
-                Ut enim quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
+                <span class="exec">Technologies</span> : <br /><br />
+                <span class="techno"><a ui-sref="CD">Continuous Delivery</a></span>
+                <span class="techno"><a ui-sref="CD2">Continuous Deployment</a></span>
+                <span class="techno"><a ui-sref="Python">Python</a></span><br /><br />
+                <span class="techno"><a ui-sref="Puppet">Puppet</a></span>
+                <span class="techno"><a ui-sref="Windows">Windows</a></span>
+                <span class="techno"><a ui-sref="Git">Git</a></span>
+                <span class="techno"><a ui-sref="Linux">Linux</a></span>
+                <span class="techno"><a ui-sref="Networking">Networking</a></span>
+            </section>
+            <br /><br />
+            <section>
+                <span ng-switch-when="en" class="switch-anim exec">Human Skills</span>
+                <span ng-switch-when="fr" class="switch-anim exec">Compétences humaines</span>
+                 : <br /><br />
+                <span class="techno">
+                    <a ui-sref="Python">
+                        Communication
+                    </a>
+                </span>
+                <span class="techno">
+                    <a ui-sref="Puppet">
+                        Scrum
+                    </a>
+                </span>
+                <span ng-switch-when="en" class="switch-anim techno">
+                    <a ui-sref="Jenkins">
+                        Transfer of knowledges
+                    </a>
+                </span>
+                <span ng-switch-when="fr" class="switch-anim techno">
+                    <a ui-sref="Jenkins">
+                        Transfert de connaissances
+                    </a>
+                </span>
             </section>
         </section>
     </section>

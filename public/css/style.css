@@ -50,7 +50,7 @@ nav
     z-index: 2000;
 }
 
-h1:before, h2.exec:before, h3.exec:before, span.exec:before
+h1:before, h2.exec:before, h3.exec:before, h4.exec:before, span.exec:before
 {
     content: "./";
 }
