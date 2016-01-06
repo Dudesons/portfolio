@@ -35,29 +35,5 @@
         </ul>
     </ul>
     <br />
-    <form>
-        <label for="mail">Email : </label><input id="mail" class="form-control" name="mail" type="email">
-        <section ng-switch on="lang">
-            <label for=firstname><span ng-switch-when="en" class="switch-anim">Firstname</span><span ng-switch-when="fr">Prénom</span>  : </label><input id="firstname" class="form-control" name="firstname" type="text">
-            <label for="name"><span ng-switch-when="en" class="switch-anim">Name</span><span ng-switch-when="fr">Nom</span> : </label><input id="name" class="form-control" name="name" type="text">
-        </section>
-        <label for="msg">Message : </label><br/>
-        <textarea id="msg" class="form-control" name="msg"></textarea><br/>
-        <center>
-            <section ng-switch on="lang">
-                    <section ng-switch-when="en" class="switch-anim">
-                        <button type="button" class="btn btn-primary">
-                            Send
-                        </button>
-                    </section>
-                    <section ng-switch-when="fr" class="switch-anim">
-                        <button type="button" class="btn btn-primary">
-                            Envoyer
-                        </button>
-                    </section>
-                </section>
-
-        </center>
-    </form>
     <br />
 </section>
