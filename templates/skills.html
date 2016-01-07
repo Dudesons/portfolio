@@ -2,10 +2,10 @@
     <div class="row limit-dash">
         <div class="col-md-4" ng-switch on="lang">
             <span ng-switch-when="en">
-                <h3 class="exec switch-anim">Business Skills</h3>
+                <h3 class="exec switch-anim">Human Skills</h3>
             </span>
             <span ng-switch-when="fr">
-                <h3 class="exec switch-anim">Compétences professionnelles</h3>
+                <h3 class="exec switch-anim">Compétences humaines</h3>
             </span>
         </div>
         <div class="col-md-4  col-md-offset-4" ng-switch on="lang">
@@ -24,10 +24,10 @@
                 <li><span class="exec">Management</span></li>
                 <ul class="contact">
                     <li><a ui-sref="Scrum">Scrum</a></li>
-                    <li><a ui-sref="XP">Extrem Programming</a></li>
+                    <!--<li><a ui-sref="XP">Extrem Programming</a></li>
                     <li><a ui-sref="Kanban">Kanban</a></li>
                     <li><a ui-sref="Lean">Lean</a></li>
-                    <li><a ui-sref="LeanStartUp">Lean Start Up</a></li>
+                    <li><a ui-sref="LeanStartUp">Lean Start Up</a></li>-->
                     <li><a ui-sref="Waterfall">Waterfall method</a></li>
                 </ul>
                 <li ng-switch on="lang">
@@ -36,22 +36,28 @@
                     </span> :
                 </li>
                 <ul class="contact">
+                    <li><a ui-sref="Com">Communication</a></li>
+                    <!--
                     <li ng-switch on="lang">
                         <a ui-sref="StrongTeamSpirit" ng-switch-when="en" class="switch-anim">Strong team spirit</a>
                         <a ui-sref="StrongTeamSpirit" ng-switch-when="fr" class="switch-anim">Fort esprit d'équipe</a>
                     </li>
+
                     <li ng-switch on="lang">
                         <a ui-sref="OrganisedAndApplied" ng-switch-when="en" class="switch-anim">Organized and applied</a>
                         <a ui-sref="OrganisedAndApplied" ng-switch-when="fr" class="switch-anim">Organisé et appliqué</a>
                     </li>
+                    -->
                     <li ng-switch on="lang">
                         <a ui-sref="AutonomousAndForceProposal" ng-switch-when="en" class="switch-anim">Autonomous and force proposal</a>
                         <a ui-sref="AutonomousAndForceProposal" ng-switch-when="fr" class="switch-anim">Autonome et force de proposition</a>
                     </li>
+                    <!--
                     <li ng-switch on="lang">
                         <a ui-sref="AbilityToAdapt" ng-switch-when="en" class="switch-anim">Ability to adapt</a>
                         <a ui-sref="AbilityToAdapt" ng-switch-when="fr" class="switch-anim">Capacité à s'adapter</a>
                     </li>
+                    -->
                 </ul>
             </ul>
         </div>
@@ -64,8 +70,14 @@
                 <ul class="contact">
                     <li><a ui-sref="Linux">Linux</a></li>
                     <li><a ui-sref="Windows">Windows</a></li>
+                    <!--
                     <li><a ui-sref="OSI">OSI model</a></li>
                     <li><a ui-sref="TCPIP">TCP / IP</a></li>
+                    -->
+                    <li ng-switch on="lang">
+                        <a ui-sref="Network" ng-switch-when="en" class="switch-anim">Network</a>
+                        <a ui-sref="Network" ng-switch-when="fr" class="switch-anim">Réseau</a>
+                    </li>
                     <li><a ui-sref="Cloud">Cloud</a></li>
                     <li><a ui-sref="Monitoring">Supervision & Monitoring</a></li>
                     <li><a ui-sref="LinuxContainerDocker">Container</a></li>
@@ -81,8 +93,13 @@
                 <ul class="contact">
                     <li><a ui-sref="Python">Python</a></li>
                     <li><a ui-sref="C">C</a></li>
-                    <li><a ui-sref="Perl">Perl</a></li>
+                    <!--<li><a ui-sref="Perl">Perl</a></li>-->
                     <li><a ui-sref="JavaScript">JavaScript</a></li>
+                    <li ng-switch on="lang">
+                        <a ui-sref="Other" ng-switch-when="en" class="switch-anim">Other languages</a>
+                        <a ui-sref="Other" ng-switch-when="fr" class="switch-anim">Autres langages</a>
+                    </li>
+
                 </ul>
                 <li><span class="exec">DevOps</span></li>
                 <ul class="contact">

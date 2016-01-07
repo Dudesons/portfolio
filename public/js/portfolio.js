@@ -14,7 +14,7 @@
                                 {
                                     return {
                                         "header":1,
-                                        "lang":"en",
+                                        "lang":"fr",
                                         "anchor":{
 
                                         },
