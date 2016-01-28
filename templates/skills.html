@@ -52,6 +52,10 @@
                         <a ui-sref="AutonomousAndForceProposal" ng-switch-when="en" class="switch-anim">Autonomous and force proposal</a>
                         <a ui-sref="AutonomousAndForceProposal" ng-switch-when="fr" class="switch-anim">Autonome et force de proposition</a>
                     </li>
+                    <li ng-switch on="lang">
+                        <a ui-sref="English" ng-switch-when="en" class="switch-anim">English</a>
+                        <a ui-sref="English" ng-switch-when="fr" class="switch-anim">Anglais</a>
+                    </li>
                     <!--
                     <li ng-switch on="lang">
                         <a ui-sref="AbilityToAdapt" ng-switch-when="en" class="switch-anim">Ability to adapt</a>
@@ -69,7 +73,7 @@
                 </li>
                 <ul class="contact">
                     <li><a ui-sref="Linux">Linux</a></li>
-                    <li><a ui-sref="Windows">Windows</a></li>
+                    <!--<li><a ui-sref="Windows">Windows</a></li>-->
                     <!--
                     <li><a ui-sref="OSI">OSI model</a></li>
                     <li><a ui-sref="TCPIP">TCP / IP</a></li>
@@ -78,9 +82,11 @@
                         <a ui-sref="Network" ng-switch-when="en" class="switch-anim">Network</a>
                         <a ui-sref="Network" ng-switch-when="fr" class="switch-anim">Réseau</a>
                     </li>
+                    <!--
                     <li><a ui-sref="Cloud">Cloud</a></li>
                     <li><a ui-sref="Monitoring">Supervision & Monitoring</a></li>
                     <li><a ui-sref="LinuxContainerDocker">Container</a></li>
+                    -->
                     <li ng-switch on="lang">
                         <a ui-sref="ITSecurity" ng-switch-when="en" class="switch-anim">IT security</a>
                         <a ui-sref="ITSecurity" ng-switch-when="fr" class="switch-anim">Sécurité informatique</a>
@@ -94,7 +100,7 @@
                     <li><a ui-sref="Python">Python</a></li>
                     <li><a ui-sref="C">C</a></li>
                     <!--<li><a ui-sref="Perl">Perl</a></li>-->
-                    <li><a ui-sref="JavaScript">JavaScript</a></li>
+                    <!--<li><a ui-sref="JavaScript">JavaScript</a></li>-->
                     <li ng-switch on="lang">
                         <a ui-sref="Other" ng-switch-when="en" class="switch-anim">Other languages</a>
                         <a ui-sref="Other" ng-switch-when="fr" class="switch-anim">Autres langages</a>
@@ -108,8 +114,10 @@
                     <li><a ui-sref="CI">Continuous Integration</a></li>
                     <!-- <li><a ui-sref="CAMS">Culture, Automate, Measure and Share</a></li> -->
                     <li><a ui-sref="IAC">Infrastructure as Code</a></li>
+                    <!--
                     <li><a ui-sref="SCM">Source Code Management</a></li>
                     <li><a ui-sref="Packaging">Packaging</a></li>
+                    -->
                 </ul>
                 <!--
                 <li><span class="exec">Frameworks : </span></li>

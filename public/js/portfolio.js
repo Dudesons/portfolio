@@ -351,6 +351,24 @@ template: 'bootstrap2'
                 templateUrl: 'templates/skills/business/autonomousandforceproposal.html',
                 controller: 'PortfolioCtrl'
             })
+            .state('Com', {
+                        url: "/Com",
+                        ncyBreadcrumbLabel: {
+                            label: Share.breadcrumb.autonomous,
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/business/com.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('English', {
+                        url: "/English",
+                        ncyBreadcrumbLabel: {
+                            label: Share.breadcrumb.autonomous,
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/business/english.html',
+                controller: 'PortfolioCtrl'
+            })
             .state('AbilityToAdapt', {
                         url: "/AbilityToAdapt",
                         ncyBreadcrumbLabel: {
@@ -394,6 +412,15 @@ template: 'bootstrap2'
                             parent: Share.breadcrumb.skills
                         },
                 templateUrl: 'templates/skills/technical/os-network/tcpip.html',
+                controller: 'PortfolioCtrl'
+            })
+            .state('Network', {
+                        url: "/Network",
+                        ncyBreadcrumbLabel: {
+                            label: "TCP IP",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/os-network/network.html',
                 controller: 'PortfolioCtrl'
             })
             .state('Netfilter', {

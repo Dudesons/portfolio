@@ -1,10 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+<section ng-switch on="lang">
+    La  communication est la capacité à transmettre une idée, désarmorcer un conflit.<br />
+    Cette compétence m'a permis a réussir les taches suivante que j’ai développer au cours de mon parcours professionnel ou a IN’TECH :
+    <ul class="contact">
+        <li>Presenter et soutenir un projet</li>
+        <li>Faire une présentation ou un R.E.X. (retour d'expérience) lors de meetup</li>
+        <li>faire une formation a une ou plusieurs personnes</li>
+        <li>Le dialogue de recueil d’un besoin client</li>
+        <li>Gérer une situation de conflits</li>
+    </ul>
+    <h3 class="exec" ng-switch-when="fr" class="switch-anim">Expériences réalisés sur la communication :</h3>
+    <br />
+    <br />
+    <ul class="contact">
+        <li>
+            <span class="techno"><a ui-sref="TraxairProject">TraxAir</a></span><br /><br />
+        </li>
+        <li>
+            <span class="techno"><a ui-sref="WemanityProject">Banque de France</a></span><br /><br />
+        </li>
+        <li>
+            <span class="techno"><a ui-sref="WemanityProject">Wemanity</a></span><br /><br />
+        </li>
+        <li>
+            <span class="techno"><a ui-sref="ItiProject">INTECH</a></span><br /><br />
+        </li>
+    </ul>
+</section>
