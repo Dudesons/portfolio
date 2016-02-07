@@ -459,6 +459,15 @@ template: 'bootstrap2'
                 templateUrl: 'templates/skills/technical/languages/python.html',
                 controller: 'PortfolioCtrl'
             })
+            .state('Other', {
+                        url: "/Other",
+                        ncyBreadcrumbLabel: {
+                            label: "Python",
+                            parent: Share.breadcrumb.skills
+                        },
+                templateUrl: 'templates/skills/technical/languages/other.html',
+                controller: 'PortfolioCtrl'
+            })
             .state('Puppet', {
                         url: "/Puppet",
                         ncyBreadcrumbLabel: {
