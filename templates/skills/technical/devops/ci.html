@@ -1,9 +1,10 @@
 <section ng-switch on="lang">
+    <center>
+        <img src="public/img/ci.png"/>
+        <h3 class="exec c">Continuous Integration</h3><br /><br />
+    </center>
     <section ng-switch-when="en" class="switch-anim">
-        <center>
-            <img src="public/img/ci.png"/>
-            <h3 class="exec c">Continuous Integration</h3><br /><br />
-        </center>
+
         <pre class="c">
             “Continuous Integration doesn’t get rid of bugs, but it does make them dramatically easier to find and remove.”
         </pre>
@@ -61,13 +62,13 @@
     </section>
     <section ng-switch-when="fr" class="switch-anim">
         <h3 class="exec c">Continuous Integration</h3><br /><br />
-        Two goals of the continuous integration is :
+        Deus principaux ovjectifs du Continuous Integration sont :
         <ul class="contact">
             <li>
-                that the software is in a working state all the time.
+                Le logiciel est dans un état fonctionnel tout le temps
             </li>
             <li>
-                To determine if the current release candidate is not the release
+                Déterminer si la release candidate actuel n'est pas une release
             </li>
         </ul>
         L'intégration continue repose souvent sur la mise en place d'une brique logicielle permettant l'automatisation de tâches : compilation, tests unitaires et fonctionnels, validation produit, tests de performances...<br />
@@ -103,6 +104,12 @@
             <li>
                 Une version est toujours disponible pour un test, une démonstration ou une distribution
             </li>
+        </ul>
+        Sur du Continuous Delivery, j'ai pu faire :
+        <ul class="contact">
+            <li>Installation et administration d'unserveur de Continuous Integration</li>
+            <li>Ecriture de tâches pour automatiser les tests et les builds</li>
+            <li>Personnalisation d'un serveur de Continuous Integration en y ajoutant des briques logiciel développées</li>
         </ul>
     </section>
     <article ng-switch on="lang">

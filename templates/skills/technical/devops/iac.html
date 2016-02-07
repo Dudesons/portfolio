@@ -16,7 +16,18 @@
             This makes devops even simpler for a developer.<br />
         </section>
         <section ng-switch-when="fr" class="switch-anim">
-
+            Infrastructure as code, signifie d'écrire du code pour gérer la configuration et l'automisation du provisonnement de l'infrastructure.<br />
+            Ce n'est pas écrire simplement des scripts mais néccessite d'utiliser des tests (unitaire, acceptance) et des pratiques du développement d'application (Par exemple: le contrôle de version, les tests, petits déploiement ...).<br />
+            Ce code va permettre de gérer les serveur de façon idempotent.<br />
+            Ce qui permet aussi au développeur de travailler sur des probèmatiques d'infrastructure via ces technologies.<br />
+            Sur l'infrastructure as code j'ai pu :
+            <ul>
+                <li>Ecrire des modules et manifestes</li>
+                <li>Mettre en place et administrer des serveur d'infrastructure as code</li>
+                <li>Faire du déploiment applicatif</li>
+                <li>Lever des machines</li>
+                <li>Tester plusieurs outils d'infrastructure as code</li>
+            </ul>
         </section>
         <article ng-switch on="lang">
             <h3 class="exec" >Infrastructure as Code tools :</h3>
@@ -25,9 +36,11 @@
                 <li>
                     <span class="techno"><a ui-sref="Puppet">Puppet</a></span><br /><br />
                 </li>
+                <!--
                 <li>
                     <span class="techno"><a ui-sref="SaltStack">SaltStack</a></span><br /><br />
                 </li>
+                -->
             </ul>
         </article>
         <article ng-switch on="lang">
