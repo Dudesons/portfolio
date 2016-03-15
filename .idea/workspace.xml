@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab05b26-66ea-4106-a6d1-ba5859656c93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" afterPath="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/com.html" afterPath="$PROJECT_DIR$/templates/skills/business/com.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/english.html" afterPath="$PROJECT_DIR$/templates/skills/business/english.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/scrum.html" afterPath="$PROJECT_DIR$/templates/skills/business/scrum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/waterfall.html" afterPath="$PROJECT_DIR$/templates/skills/business/waterfall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/cd2.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/cd2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/codeship.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/codeship.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/iac.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/iac.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/jenkins.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/jenkins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/c.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/puppet.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/puppet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/python.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/python.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/saltstack.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/saltstack.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/network.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/network.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" afterPath="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" />
     </list>
     <ignored path="portfolio2.iws" />
@@ -107,8 +90,8 @@
           <file leaf-file-name="linux_container_docker.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8258824">
-                  <caret line="39" column="82" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="82" />
+                <state vertical-scroll-proportion="0.76235294">
+                  <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -161,7 +144,7 @@
           <file leaf-file-name="ci.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/skills/technical/devops/ci.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.11058824">
+                <state vertical-scroll-proportion="0.14352942">
                   <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
                   <folding />
                 </state>
@@ -221,8 +204,8 @@
         <option value="$PROJECT_DIR$/templates/welcome.html" />
         <option value="$PROJECT_DIR$/templates/edu.html" />
         <option value="$PROJECT_DIR$/templates/skills/business/english.html" />
-        <option value="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" />
         <option value="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" />
+        <option value="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" />
       </list>
     </option>
   </component>
@@ -812,7 +795,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1922" height="1033" extended-state="7" />
+    <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15848452" sideWeight="0.6700565" order="0" side_tool="false" content_ui="combo" />
@@ -1214,7 +1197,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/skills/technical/devops/ci.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11058824">
+        <state vertical-scroll-proportion="0.14352942">
           <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
           <folding />
         </state>
@@ -1230,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8258824">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.76235294">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
