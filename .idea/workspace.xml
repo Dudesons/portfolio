@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ab05b26-66ea-4106-a6d1-ba5859656c93" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" afterPath="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/com.html" afterPath="$PROJECT_DIR$/templates/skills/business/com.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/english.html" afterPath="$PROJECT_DIR$/templates/skills/business/english.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/scrum.html" afterPath="$PROJECT_DIR$/templates/skills/business/scrum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/business/waterfall.html" afterPath="$PROJECT_DIR$/templates/skills/business/waterfall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/cd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/cd2.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/cd2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/ci.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/codeship.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/codeship.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/iac.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/iac.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/devops/jenkins.html" afterPath="$PROJECT_DIR$/templates/skills/technical/devops/jenkins.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/c.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/puppet.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/puppet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/python.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/python.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/languages/saltstack.html" afterPath="$PROJECT_DIR$/templates/skills/technical/languages/saltstack.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/network.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/network.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" afterPath="$PROJECT_DIR$/templates/skills/technical/os-network/windows.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" afterPath="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" />
     </list>
     <ignored path="portfolio2.iws" />
@@ -56,16 +74,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="xp.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/xp.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="proproject.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/projects/proproject.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +107,18 @@
           <file leaf-file-name="linux_container_docker.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.12565444">
-                  <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.8258824">
+                  <caret line="39" column="82" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="82" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="autonomousandforceproposal.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-17.481482">
+                  <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
                   <folding />
                 </state>
               </provider>
@@ -143,7 +161,7 @@
           <file leaf-file-name="ci.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/skills/technical/devops/ci.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.16404887">
+                <state vertical-scroll-proportion="0.11058824">
                   <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
                   <folding />
                 </state>
@@ -181,7 +199,6 @@
         <option value="$PROJECT_DIR$/templates/skills/business/waterfall.html" />
         <option value="$PROJECT_DIR$/templates/skills/technical/os-network/linux.html" />
         <option value="$PROJECT_DIR$/templates/skills/business/scrum.html" />
-        <option value="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" />
         <option value="$PROJECT_DIR$/templates/skills/business/com.html" />
         <option value="$PROJECT_DIR$/templates/skills/technical/os-network/itsecurity.html" />
         <option value="$PROJECT_DIR$/templates/skills/technical/os-network/network.html" />
@@ -205,6 +222,7 @@
         <option value="$PROJECT_DIR$/templates/edu.html" />
         <option value="$PROJECT_DIR$/templates/skills/business/english.html" />
         <option value="$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html" />
+        <option value="$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html" />
       </list>
     </option>
   </component>
@@ -794,7 +812,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
+    <frame x="-1" y="24" width="1922" height="1033" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15848452" sideWeight="0.6700565" order="0" side_tool="false" content_ui="combo" />
@@ -805,7 +823,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4680617" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30540243" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30540243" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1000,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="16.258064">
@@ -1068,6 +1079,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.0">
           <caret line="53" column="182" selection-start-line="53" selection-start-column="182" selection-end-line="53" selection-end-column="182" />
+          <folding>
+            <element signature="n#section#0;n#article#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,6 +1089,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64285713">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,6 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58214283">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,16 +1214,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/skills/technical/devops/ci.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16404887">
+        <state vertical-scroll-proportion="0.11058824">
           <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/skills/business/autonomousandforceproposal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.481482">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/skills/tools/devops/linux_container_docker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12565444">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.8258824">
+          <caret line="39" column="82" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="82" />
           <folding />
         </state>
       </provider>
